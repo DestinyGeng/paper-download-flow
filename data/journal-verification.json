@@ -1,0 +1,5596 @@
+{
+ "0957-4174": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Expert Systems with Applications",
+  "query": "0957-4174",
+  "checked_at": "2026-11-19"
+ },
+ "0378-4371": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "2区",
+  "name": "Physica A Statistical Mechanics and its Applications",
+  "query": "0378-4371",
+  "checked_at": "2026-11-19"
+ },
+ "1076-2787": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Complexity",
+  "query": "1076-2787",
+  "checked_at": "2026-11-19"
+ },
+ "2169-3536": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q2",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "IEEE Access",
+  "query": "2169-3536",
+  "checked_at": "2026-11-19"
+ },
+ "1053-587X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "IEEE Transactions on Signal Processing",
+  "query": "1053-587X",
+  "checked_at": "2026-11-19"
+ },
+ "0920-8542": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q2",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "The Journal of Supercomputing",
+  "query": "0920-8542",
+  "checked_at": "2026-11-19"
+ },
+ "2076-3417": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q2",
+   "Q3"
+  ],
+  "zone": "3区",
+  "name": "Applied Sciences",
+  "query": "2076-3417",
+  "checked_at": "2026-11-19"
+ },
+ "0266-4720": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q2"
+  ],
+  "zone": "4区",
+  "name": "Expert Systems",
+  "query": "0266-4720",
+  "checked_at": "2026-11-19"
+ },
+ "2227-7390": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "3区",
+  "name": "Mathematics",
+  "query": "2227-7390",
+  "checked_at": "2026-11-19"
+ },
+ "IEEE International Conference on Agents (ICA)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "IEEE International Conference on Agents (ICA)",
+  "query": "IEEE International Conference on Agents (ICA)",
+  "checked_at": "2026-11-19"
+ },
+ "2146-4138": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "International Journal of Economics and Financial Issues",
+  "query": "2146-4138",
+  "checked_at": "2026-11-19"
+ },
+ "2444-8834": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "European Research on Management and Business Economics",
+  "query": "2444-8834",
+  "checked_at": "2026-11-19"
+ },
+ "1559-3967": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "The Journal of Trading",
+  "query": "1559-3967",
+  "checked_at": "2026-11-19"
+ },
+ "1076-9307": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "3区",
+  "name": "International Journal of Finance & Economics",
+  "query": "1076-9307",
+  "checked_at": "2026-11-19"
+ },
+ "IEEE International Conference on Distributed Computing Systems Workshops (ICDCSW)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "IEEE International Conference on Distributed Computing Systems Workshops (ICDCSW)",
+  "query": "IEEE International Conference on Distributed Computing Systems Workshops (ICDCSW)",
+  "checked_at": "2026-11-19"
+ },
+ "RePEc: Research Papers in Economics": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "RePEc: Research Papers in Economics",
+  "query": "RePEc: Research Papers in Economics",
+  "checked_at": "2026-11-19"
+ },
+ "1062-9769": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "The Quarterly Review of Economics and Finance",
+  "query": "1062-9769",
+  "checked_at": "2026-11-19"
+ },
+ "2071-1050": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q2",
+   "Q3"
+  ],
+  "zone": "3区",
+  "name": "Sustainability",
+  "query": "2071-1050",
+  "checked_at": "2026-11-19"
+ },
+ "1911-8066": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of risk and financial management",
+  "query": "1911-8066",
+  "checked_at": "2026-11-19"
+ },
+ "1127-1035": {
+  "found": true,
+  "hits": 2,
+  "jcr": [
+   "Q2",
+   "Q3",
+   "Q4"
+  ],
+  "zone": "3区",
+  "matched_issn": "0143-6570",
+  "name": "Decisions in Economics and Finance",
+  "query": "Decisions in Economics and Finance",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "Asian Conference on Innovation in Technology (ASIANCON)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Asian Conference on Innovation in Technology (ASIANCON)",
+  "query": "Asian Conference on Innovation in Technology (ASIANCON)",
+  "checked_at": "2026-11-19"
+ },
+ "1555-4961": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "3区",
+  "matched_issn": "1934-4554",
+  "name": "Financial markets and portfolio management",
+  "query": "Financial markets and portfolio management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "0952-813X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "4区",
+  "name": "Journal of Experimental & Theoretical Artificial Intelligence",
+  "query": "0952-813X",
+  "checked_at": "2026-11-19"
+ },
+ "1367-2630": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "2区",
+  "name": "New Journal of Physics",
+  "query": "1367-2630",
+  "checked_at": "2026-11-19"
+ },
+ "1086-7376": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Studies in Economics and Finance",
+  "query": "1086-7376",
+  "checked_at": "2026-11-19"
+ },
+ "1085-1992": {
+  "found": true,
+  "hits": 6,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "2305-7254",
+  "name": "The proceedings of the IEEE Conference on Control Applications/The proceedings of the ... IEEE Conference on Control Applications",
+  "query": "The proceedings of the IEEE Conference on Control Applications/The proceedings of the ... IEEE Conference on Control Applications",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "0219-0249": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Journal of Theoretical and Applied Finance",
+  "query": "0219-0249",
+  "checked_at": "2026-11-19"
+ },
+ "1544-6131": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Finance research letters",
+  "query": "1544-6131",
+  "checked_at": "2026-11-19"
+ },
+ "1026-0226": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q3"
+  ],
+  "zone": "4区",
+  "name": "Discrete Dynamics in Nature and Society",
+  "query": "1026-0226",
+  "checked_at": "2026-11-19"
+ },
+ "1810-4967": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Investment Management and Financial Innovations",
+  "query": "1810-4967",
+  "checked_at": "2026-11-19"
+ },
+ "2373-0803": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "IEEE Statistical Signal Processing Workshop (SSP)",
+  "query": "2373-0803",
+  "checked_at": "2026-11-19"
+ },
+ "2444-569X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Journal of Innovation & Knowledge",
+  "query": "2444-569X",
+  "checked_at": "2026-11-19"
+ },
+ "2191-530X": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "SpringerBriefs in applied sciences and technology",
+  "query": "2191-530X",
+  "checked_at": "2026-11-19"
+ },
+ "0005-1098": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Automatica",
+  "query": "0005-1098",
+  "checked_at": "2026-11-19"
+ },
+ "ACM International Conference on AI in Finance (ICAIF)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "ACM International Conference on AI in Finance (ICAIF)",
+  "query": "ACM International Conference on AI in Finance (ICAIF)",
+  "checked_at": "2026-11-19"
+ },
+ "0941-0643": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Neural Computing and Applications",
+  "query": "0941-0643",
+  "checked_at": "2026-11-19"
+ },
+ "1029-3523": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Investment Analysts Journal",
+  "query": "1029-3523",
+  "checked_at": "2026-11-19"
+ },
+ "2331-8422": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "arXiv (Cornell University)",
+  "query": "arXiv (Cornell University)",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2044-1398": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "China Finance Review International",
+  "query": "2044-1398",
+  "checked_at": "2026-11-19"
+ },
+ "2214-8450": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Borsa Istanbul Review",
+  "query": "2214-8450",
+  "checked_at": "2026-11-19"
+ },
+ "1121-9130": {
+  "found": true,
+  "hits": 2,
+  "jcr": [
+   "Q2",
+   "Q3"
+  ],
+  "zone": "4区",
+  "matched_issn": "1618-2510",
+  "name": "Statistical Methods & Applications",
+  "query": "Statistical Methods & Applications",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "IEEE International Conference on Industrial Engineering and Applications (ICIEA)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "IEEE International Conference on Industrial Engineering and Applications (ICIEA)",
+  "query": "IEEE International Conference on Industrial Engineering and Applications (ICIEA)",
+  "checked_at": "2026-11-19"
+ },
+ "OITS International Conference on Information Technology (OCIT)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "OITS International Conference on Information Technology (OCIT)",
+  "query": "OITS International Conference on Information Technology (OCIT)",
+  "checked_at": "2026-11-19"
+ },
+ "2957-0506": {
+  "found": true,
+  "hits": 12,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "3区",
+  "matched_issn": "0078-8228",
+  "name": "Working Papers.",
+  "query": "Working Papers.",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "1865-0929": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Communications in computer and information science",
+  "query": "1865-0929",
+  "checked_at": "2026-11-19"
+ },
+ "2640-3943": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "The Journal of Financial Data Science",
+  "query": "2640-3943",
+  "checked_at": "2026-11-19"
+ },
+ "2405-9188": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "The Journal of Finance and Data Science",
+  "query": "2405-9188",
+  "checked_at": "2026-11-19"
+ },
+ "IEEE International Conference on Data Science and Advanced Analytics (DSAA)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "IEEE International Conference on Data Science and Advanced Analytics (DSAA)",
+  "query": "IEEE International Conference on Data Science and Advanced Analytics (DSAA)",
+  "checked_at": "2026-11-19"
+ },
+ "2199-4730": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Financial Innovation",
+  "query": "2199-4730",
+  "checked_at": "2026-11-19"
+ },
+ "0927-7099": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q3",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Computational Economics",
+  "query": "0927-7099",
+  "checked_at": "2026-11-19"
+ },
+ "2225-1146": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "3区",
+  "name": "Econometrics",
+  "query": "2225-1146",
+  "checked_at": "2026-11-19"
+ },
+ "1549-8328": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "IEEE Transactions on Circuits and Systems I Regular Papers",
+  "query": "1549-8328",
+  "checked_at": "2026-11-19"
+ },
+ "IEEE International Conference on Big Data (BigData)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "IEEE International Conference on Big Data (BigData)",
+  "query": "IEEE International Conference on Big Data (BigData)",
+  "checked_at": "2026-11-19"
+ },
+ "1757-6385": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "3区",
+  "name": "Journal of Financial Economic Policy",
+  "query": "1757-6385",
+  "checked_at": "2026-11-19"
+ },
+ "2424-7863": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Journal of Financial Engineering",
+  "query": "2424-7863",
+  "checked_at": "2026-11-19"
+ },
+ "1556-5068": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "SSRN Electronic Journal",
+  "query": "SSRN Electronic Journal",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "0730-3157": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "IEEE Annual International Computer Software and Applications Conference (COMPSAC)",
+  "query": "0730-3157",
+  "checked_at": "2026-11-19"
+ },
+ "IEEE International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "IEEE International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB)",
+  "query": "IEEE International Conference on Electronic Communications, Internet of Things and Big Data (ICEIB)",
+  "checked_at": "2026-11-19"
+ },
+ "1059-0560": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "International Review of Economics & Finance",
+  "query": "1059-0560",
+  "checked_at": "2026-11-19"
+ },
+ "ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD)",
+  "query": "ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD)",
+  "checked_at": "2026-11-19"
+ },
+ "1877-0509": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Procedia Computer Science",
+  "query": "1877-0509",
+  "checked_at": "2026-11-19"
+ },
+ "1309-422X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "3区",
+  "name": "Eurasian economic review :",
+  "query": "1309-422X",
+  "checked_at": "2026-11-19"
+ },
+ "IEEE International Conference on Big Data and Smart Computing (BigComp)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "IEEE International Conference on Big Data and Smart Computing (BigComp)",
+  "query": "IEEE International Conference on Big Data and Smart Computing (BigComp)",
+  "checked_at": "2026-11-19"
+ },
+ "1392-2785": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Engineering Economics",
+  "query": "1392-2785",
+  "checked_at": "2026-11-19"
+ },
+ "1099-4300": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Entropy",
+  "query": "1099-4300",
+  "checked_at": "2026-11-19"
+ },
+ "1514-0326": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Journal of Applied Economics",
+  "query": "1514-0326",
+  "checked_at": "2026-11-19"
+ },
+ "0219-6492": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "4区",
+  "name": "Journal of Information & Knowledge Management",
+  "query": "0219-6492",
+  "checked_at": "2026-11-19"
+ },
+ "2162-2442": {
+  "found": true,
+  "hits": 3,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q1"
+  ],
+  "zone": "3区",
+  "matched_issn": "0960-1627",
+  "name": "Journal of Mathematical Finance",
+  "query": "Journal of Mathematical Finance",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "1380-2011": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Asia-Pacific Financial Markets",
+  "query": "1380-2011",
+  "checked_at": "2026-11-19"
+ },
+ "2162-2086": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Theoretical Economics Letters",
+  "query": "Theoretical Economics Letters",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "1932-6203": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "PLoS ONE",
+  "query": "1932-6203",
+  "checked_at": "2026-11-19"
+ },
+ "0307-4358": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "3区",
+  "name": "Managerial Finance",
+  "query": "0307-4358",
+  "checked_at": "2026-11-19"
+ },
+ "0096-3003": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Applied Mathematics and Computation",
+  "query": "0096-3003",
+  "checked_at": "2026-11-19"
+ },
+ "1435-246X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "4区",
+  "name": "Central European Journal of Operations Research",
+  "query": "1435-246X",
+  "checked_at": "2026-11-19"
+ },
+ "2227-9091": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "3区",
+  "name": "Risks",
+  "query": "2227-9091",
+  "checked_at": "2026-11-19"
+ },
+ "2297-4687": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "4区",
+  "name": "Frontiers in Applied Mathematics and Statistics",
+  "query": "2297-4687",
+  "checked_at": "2026-11-19"
+ },
+ "1519-7077": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Revista Contabilidade & Finanças",
+  "query": "1519-7077",
+  "checked_at": "2026-11-19"
+ },
+ "2255-8942": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "Baltic Journal of Modern Computing",
+  "query": "2255-8942",
+  "checked_at": "2026-11-19"
+ },
+ "IEEE Global Emerging Technology Blockchain Forum: Blockchain & Beyond (iGETblockchain)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "IEEE Global Emerging Technology Blockchain Forum: Blockchain & Beyond (iGETblockchain)",
+  "query": "IEEE Global Emerging Technology Blockchain Forum: Blockchain & Beyond (iGETblockchain)",
+  "checked_at": "2026-11-19"
+ },
+ "1756-3607": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "The Journal of Energy Markets",
+  "query": "1756-3607",
+  "checked_at": "2026-11-19"
+ },
+ "0271-4302": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "IEEE International Symposium on Circuits and Systems proceedings",
+  "query": "0271-4302",
+  "checked_at": "2026-11-19"
+ },
+ "0972-0510": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of Statistics and Management Systems",
+  "query": "0972-0510",
+  "checked_at": "2026-11-19"
+ },
+ "International Conference on Artificial Intelligence and Information Systems (ICAIIS)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Conference on Artificial Intelligence and Information Systems (ICAIIS)",
+  "query": "International Conference on Artificial Intelligence and Information Systems (ICAIIS)",
+  "checked_at": "2026-11-19"
+ },
+ "International World Wide Web Conference (WWW)": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International World Wide Web Conference (WWW)",
+  "query": "International World Wide Web Conference (WWW)",
+  "checked_at": "2026-11-19"
+ },
+ "1753-9579": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "The Journal of Risk Model Validation",
+  "query": "1753-9579",
+  "checked_at": "2026-11-19"
+ },
+ "2300-2298": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "4区",
+  "name": "Dependence Modeling",
+  "query": "2300-2298",
+  "checked_at": "2026-11-19"
+ },
+ "1470-8272": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "3区",
+  "name": "Journal of Asset Management",
+  "query": "1470-8272",
+  "checked_at": "2026-11-19"
+ },
+ "International Journal of Commerce and Finance (Istanbul Commerce University)": {
+  "found": true,
+  "hits": 4,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "International Journal of Commerce and Finance (Istanbul Commerce University)",
+  "query": "International Journal of Commerce and Finance (Istanbul Commerce University)",
+  "checked_at": "2026-11-19"
+ },
+ "1996-1073": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "3区",
+  "name": "Energies",
+  "query": "1996-1073",
+  "checked_at": "2026-11-19"
+ },
+ "1133-3197": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Studies of Applied Economics",
+  "query": "1133-3197",
+  "checked_at": "2026-11-19"
+ },
+ "1350-486X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Applied Mathematical Finance",
+  "query": "1350-486X",
+  "checked_at": "2026-11-19"
+ },
+ "Digital Commons - USU (Utah State University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Digital Commons - USU (Utah State University)",
+  "query": "Digital Commons - USU (Utah State University)",
+  "checked_at": "2026-11-19"
+ },
+ "1308-2922": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Pamukkale University Journal of Social Sciences Institute",
+  "query": "1308-2922",
+  "checked_at": "2026-11-19"
+ },
+ "2692-6156": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "BCP Business & Management",
+  "query": "BCP Business & Management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2319-7064": {
+  "found": true,
+  "hits": 114,
+  "jcr": [
+   "Q3",
+   "Q3",
+   "Q2"
+  ],
+  "zone": "3区",
+  "matched_issn": "2086-5023",
+  "name": "International Journal of Science and Research (IJSR)",
+  "query": "International Journal of Science and Research (IJSR)",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "1064-1246": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": "4区",
+  "name": "Journal of Intelligent & Fuzzy Systems",
+  "query": "1064-1246",
+  "checked_at": "2026-11-19"
+ },
+ "1225-1100": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Korean Management Science Review",
+  "query": "1225-1100",
+  "checked_at": "2026-11-19"
+ },
+ "0973-8711": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Indian Journal of Finance",
+  "query": "0973-8711",
+  "checked_at": "2026-11-19"
+ },
+ "2405-8440": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": "4区",
+  "name": "Heliyon",
+  "query": "2405-8440",
+  "checked_at": "2026-11-19"
+ },
+ "Journal of Marketing and Consumer Research": {
+  "found": true,
+  "hits": 3,
+  "jcr": [
+   "Q2",
+   "Q2"
+  ],
+  "zone": "2区",
+  "name": "Journal of Marketing and Consumer Research",
+  "query": "Journal of Marketing and Consumer Research",
+  "checked_at": "2026-11-19"
+ },
+ "2589-4900": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Atlantis Highlights in Computer Sciences/Atlantis highlights in computer sciences",
+  "query": "Atlantis Highlights in Computer Sciences/Atlantis highlights in computer sciences",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2766-824X": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Frontiers in Business Economics and Management",
+  "query": "Frontiers in Business Economics and Management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "LUTPub (LUT University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "LUTPub (LUT University)",
+  "query": "LUTPub (LUT University)",
+  "checked_at": "2026-11-19"
+ },
+ "2055-1045": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Humanities and Social Sciences Communications",
+  "query": "2055-1045",
+  "checked_at": "2026-11-19"
+ },
+ "2327-5952": {
+  "found": true,
+  "hits": 2,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "2590-2911",
+  "name": "Open Journal of Social Sciences",
+  "query": "Open Journal of Social Sciences",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "1898-1143": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q3"
+  ],
+  "zone": "3区",
+  "matched_issn": "0143-6570",
+  "name": "Managerial Economics",
+  "query": "Managerial Economics",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2277-5412": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "Indian Journal of Economics and Development",
+  "query": "2277-5412",
+  "checked_at": "2026-11-19"
+ },
+ "0171-6468": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "4区",
+  "name": "OR Spectrum",
+  "query": "0171-6468",
+  "checked_at": "2026-11-19"
+ },
+ "Research Square": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Research Square",
+  "query": "Research Square",
+  "checked_at": "2026-11-19"
+ },
+ "2661-8907": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "SN Computer Science",
+  "query": "2661-8907",
+  "checked_at": "2026-11-19"
+ },
+ "2413-9610": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Development Management",
+  "query": "2413-9610",
+  "checked_at": "2026-11-19"
+ },
+ "0334-2700": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "4区",
+  "matched_issn": "1446-1811",
+  "name": "ANZIAM Journal",
+  "query": "ANZIAM Journal",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2376-5992": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q3",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "PeerJ Computer Science",
+  "query": "2376-5992",
+  "checked_at": "2026-11-19"
+ },
+ "2194-5365": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Advances in intelligent systems and computing",
+  "query": "2194-5365",
+  "checked_at": "2026-11-19"
+ },
+ "2178-7638": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Revista de Administração Contabilidade e Economia da Fundace",
+  "query": "2178-7638",
+  "checked_at": "2026-11-19"
+ },
+ "1578-4487": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Applied econometrics and international development",
+  "query": "1578-4487",
+  "checked_at": "2026-11-19"
+ },
+ "1364-5021": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences",
+  "query": "1364-5021",
+  "checked_at": "2026-11-19"
+ },
+ "0302-9743": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Lecture notes in computer science",
+  "query": "0302-9743",
+  "checked_at": "2026-11-19"
+ },
+ "0924-865X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Review of Quantitative Finance and Accounting",
+  "query": "0924-865X",
+  "checked_at": "2026-11-19"
+ },
+ "1561-8706": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Pakistan Business Review",
+  "query": "1561-8706",
+  "checked_at": "2026-11-19"
+ },
+ "1022-2898": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Zhōngguó cáiwù xuékān",
+  "query": "1022-2898",
+  "checked_at": "2026-11-19"
+ },
+ "1524-1904": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q4",
+   "Q2"
+  ],
+  "zone": "4区",
+  "name": "Applied Stochastic Models in Business and Industry",
+  "query": "1524-1904",
+  "checked_at": "2026-11-19"
+ },
+ "DOAJ (DOAJ: Directory of Open Access Journals)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+  "query": "DOAJ (DOAJ: Directory of Open Access Journals)",
+  "checked_at": "2026-11-19"
+ },
+ "1508-2008": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "Comparative Economic Research Central and Eastern Europe",
+  "query": "1508-2008",
+  "checked_at": "2026-11-19"
+ },
+ "2676-6337": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Iranian Journal of Finance",
+  "query": "2676-6337",
+  "checked_at": "2026-11-19"
+ },
+ "K-State Research Exchange (Kansas State University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "K-State Research Exchange (Kansas State University)",
+  "query": "K-State Research Exchange (Kansas State University)",
+  "checked_at": "2026-11-19"
+ },
+ "2754-1169": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Advances in Economics Management and Political Sciences",
+  "query": "Advances in Economics Management and Political Sciences",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2709-9601": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Reviews of Management Sciences",
+  "query": "2709-9601",
+  "checked_at": "2026-11-19"
+ },
+ "NORA - Norwegian Open Research Archives": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "NORA - Norwegian Open Research Archives",
+  "query": "NORA - Norwegian Open Research Archives",
+  "checked_at": "2026-11-19"
+ },
+ "Americanae (AECID Library)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Americanae (AECID Library)",
+  "query": "Americanae (AECID Library)",
+  "checked_at": "2026-11-19"
+ },
+ "Apress eBooks": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Apress eBooks",
+  "query": "Apress eBooks",
+  "checked_at": "2026-11-19"
+ },
+ "2352-538X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "2666-2558",
+  "name": "Advances in computer science research",
+  "query": "Advances in computer science research",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "1829-488X": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "BULLETIN OF HIGH TECHNOLOGY",
+  "query": "BULLETIN OF HIGH TECHNOLOGY",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2150-4067": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Technology and Investment",
+  "query": "Technology and Investment",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "UWSpace (University of Waterloo)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "UWSpace (University of Waterloo)",
+  "query": "UWSpace (University of Waterloo)",
+  "checked_at": "2026-11-19"
+ },
+ "0094-243X": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "AIP conference proceedings",
+  "query": "0094-243X",
+  "checked_at": "2026-11-19"
+ },
+ "0972-6527": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "4区",
+  "name": "Journal of Emerging Market Finance",
+  "query": "0972-6527",
+  "checked_at": "2026-11-19"
+ },
+ "2580-569X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "ZERO Jurnal Sains Matematika dan Terapan",
+  "query": "2580-569X",
+  "checked_at": "2026-11-19"
+ },
+ "2209-2641": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Proceedings of Business and Economic Studies",
+  "query": "2209-2641",
+  "checked_at": "2026-11-19"
+ },
+ "2349-5162": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of Emerging Technologies and Innovative Research",
+  "query": "2349-5162",
+  "checked_at": "2026-11-19"
+ },
+ "Figshare": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Figshare",
+  "query": "Figshare",
+  "checked_at": "2026-11-19"
+ },
+ "1804-171X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q2",
+   "Q3"
+  ],
+  "zone": "3区",
+  "name": "Journal of Competitiveness",
+  "query": "1804-171X",
+  "checked_at": "2026-11-19"
+ },
+ "2010-023X": {
+  "found": true,
+  "hits": 6,
+  "jcr": [
+   "Q3",
+   "Q3",
+   "Q2"
+  ],
+  "zone": "3区",
+  "matched_issn": "0885-3908",
+  "name": "International Journal of Trade Economics and Finance",
+  "query": "International Journal of Trade Economics and Finance",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "International Conference on Machinery, Materials and Computing Technology (ICMMCT)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Conference on Machinery, Materials and Computing Technology (ICMMCT)",
+  "query": "International Conference on Machinery, Materials and Computing Technology (ICMMCT)",
+  "checked_at": "2026-11-19"
+ },
+ "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+  "query": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+  "checked_at": "2026-11-19"
+ },
+ "0975-8887": {
+  "found": true,
+  "hits": 7,
+  "jcr": [
+   "Q4",
+   "Q3"
+  ],
+  "zone": "4区",
+  "matched_issn": "1206-212X",
+  "name": "International Journal of Computer Applications",
+  "query": "International Journal of Computer Applications",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "Open University of Cape Town (University of Cape Town)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Open University of Cape Town (University of Cape Town)",
+  "query": "Open University of Cape Town (University of Cape Town)",
+  "checked_at": "2026-11-19"
+ },
+ "IISES International Academic Conference": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "IISES International Academic Conference",
+  "query": "IISES International Academic Conference",
+  "checked_at": "2026-11-19"
+ },
+ "1547-5816": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q3",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "Journal of Industrial and Management Optimization",
+  "query": "1547-5816",
+  "checked_at": "2026-11-19"
+ },
+ "2708-616X": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of Accounting Finance Economics and Social Sciences",
+  "query": "2708-616X",
+  "checked_at": "2026-11-19"
+ },
+ "2523-2576": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "matched_issn": "2424-7863",
+  "name": "Financial Engineering and Risk Management",
+  "query": "Financial Engineering and Risk Management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2616-5902": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Academic Journal of Business & Management",
+  "query": "Academic Journal of Business & Management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "3049-5768": {
+  "found": true,
+  "hits": 3,
+  "jcr": [
+   "Q2",
+   "Q1"
+  ],
+  "zone": "2区",
+  "matched_issn": "1050-6519",
+  "name": "Journal of fintech and business analysis.",
+  "query": "Journal of fintech and business analysis.",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2957-952X": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Highlights in Business Economics and Management",
+  "query": "Highlights in Business Economics and Management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2394-5125": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of Critical Reviews",
+  "query": "2394-5125",
+  "checked_at": "2026-11-19"
+ },
+ "2253-5799": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Applied Finance Letters",
+  "query": "2253-5799",
+  "checked_at": "2026-11-19"
+ },
+ "2227-7072": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "International Journal of Financial Studies",
+  "query": "2227-7072",
+  "checked_at": "2026-11-19"
+ },
+ "2475-4269": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "4区",
+  "name": "Statistical Theory and Related Fields",
+  "query": "2475-4269",
+  "checked_at": "2026-11-19"
+ },
+ "2730-7484": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Transactions on computer systems and networks",
+  "query": "2730-7484",
+  "checked_at": "2026-11-19"
+ },
+ "International Conference on Advances in Computing, Communication Control and Networking (ICAC3N)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Conference on Advances in Computing, Communication Control and Networking (ICAC3N)",
+  "query": "International Conference on Advances in Computing, Communication Control and Networking (ICAC3N)",
+  "checked_at": "2026-11-19"
+ },
+ "Zenodo (CERN European Organization for Nuclear Research)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Zenodo (CERN European Organization for Nuclear Research)",
+  "query": "Zenodo (CERN European Organization for Nuclear Research)",
+  "checked_at": "2026-11-19"
+ },
+ "DR-NTU (Nanyang Technological University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "DR-NTU (Nanyang Technological University)",
+  "query": "DR-NTU (Nanyang Technological University)",
+  "checked_at": "2026-11-19"
+ },
+ "2573-0134": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "3区",
+  "name": "Quantitative Finance and Economics",
+  "query": "2573-0134",
+  "checked_at": "2026-11-19"
+ },
+ "NCCU LIBRARY": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "NCCU LIBRARY",
+  "query": "NCCU LIBRARY",
+  "checked_at": "2026-11-19"
+ },
+ "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+  "query": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+  "checked_at": "2026-11-19"
+ },
+ "2500-3747": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Modern Economy Success",
+  "query": "2500-3747",
+  "checked_at": "2026-11-19"
+ },
+ "1792-8036": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Engineering Technology & Applied Science Research",
+  "query": "1792-8036",
+  "checked_at": "2026-11-19"
+ },
+ "2313-1217": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Sukkur IBA Journal of Management and Business",
+  "query": "2313-1217",
+  "checked_at": "2026-11-19"
+ },
+ "1889-7045": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0120-3886",
+  "name": "ICADE Revista de la Facultad de Derecho",
+  "query": "ICADE Revista de la Facultad de Derecho",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "Theseus (Ammattikorkeakoulujen)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Theseus (Ammattikorkeakoulujen)",
+  "query": "Theseus (Ammattikorkeakoulujen)",
+  "checked_at": "2026-11-19"
+ },
+ "1088-6931": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "GLOBAL BUSINESS & FINANCE REVIEW",
+  "query": "1088-6931",
+  "checked_at": "2026-11-19"
+ },
+ "Chula Digiverse": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Chula Digiverse",
+  "query": "Chula Digiverse",
+  "checked_at": "2026-11-19"
+ },
+ "Open access LMU (Ludwid Maxmilian's Universitat Munchen)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Open access LMU (Ludwid Maxmilian's Universitat Munchen)",
+  "query": "Open access LMU (Ludwid Maxmilian's Universitat Munchen)",
+  "checked_at": "2026-11-19"
+ },
+ "SU+ Digital Repository (Strathmore University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "SU+ Digital Repository (Strathmore University)",
+  "query": "SU+ Digital Repository (Strathmore University)",
+  "checked_at": "2026-11-19"
+ },
+ "Institutional Repository Hellanicus": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Institutional Repository Hellanicus",
+  "query": "Institutional Repository Hellanicus",
+  "checked_at": "2026-11-19"
+ },
+ "2822-2881": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Firat University Journal of Experimental and Computational Engineering",
+  "query": "2822-2881",
+  "checked_at": "2026-11-19"
+ },
+ "1520-3255": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "The Journal of Alternative Investments",
+  "query": "1520-3255",
+  "checked_at": "2026-11-19"
+ },
+ "Lund University Publications Student Papers (Lund University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Lund University Publications Student Papers (Lund University)",
+  "query": "Lund University Publications Student Papers (Lund University)",
+  "checked_at": "2026-11-19"
+ },
+ "2394-3459": {
+  "found": true,
+  "hits": 12,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q2"
+  ],
+  "zone": "4区",
+  "matched_issn": "0367-6722",
+  "name": "Indian Journal of Research in Capital Markets",
+  "query": "Indian Journal of Research in Capital Markets",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2582-8185": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "International Journal of Science and Research Archive",
+  "query": "2582-8185",
+  "checked_at": "2026-11-19"
+ },
+ "e-Publications@Marquette (Marquette University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "e-Publications@Marquette (Marquette University)",
+  "query": "e-Publications@Marquette (Marquette University)",
+  "checked_at": "2026-11-19"
+ },
+ "2731-040X": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Lecture notes in operations research",
+  "query": "2731-040X",
+  "checked_at": "2026-11-19"
+ },
+ "2456-477X": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Asian Research Journal of Mathematics",
+  "query": "2456-477X",
+  "checked_at": "2026-11-19"
+ },
+ "2453-6881": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Mathematics in Education Research and Applications",
+  "query": "2453-6881",
+  "checked_at": "2026-11-19"
+ },
+ "1007-6735": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of University of Shanghai for Science and Technology",
+  "query": "1007-6735",
+  "checked_at": "2026-11-19"
+ },
+ "2791-0210": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Highlights in Science Engineering and Technology",
+  "query": "Highlights in Science Engineering and Technology",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2582-5208": {
+  "found": true,
+  "hits": 177,
+  "jcr": [
+   "Q4",
+   "Q3",
+   "Q1"
+  ],
+  "zone": "4区",
+  "matched_issn": "1985-4668",
+  "name": "International Research Journal of Modernization in Engineering Technology and Science",
+  "query": "International Research Journal of Modernization in Engineering Technology and Science",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "Springer eBooks": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Springer eBooks",
+  "query": "Springer eBooks",
+  "checked_at": "2026-11-19"
+ },
+ "Dspace Repository (Marmara Üniversitesi)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Dspace Repository (Marmara Üniversitesi)",
+  "query": "Dspace Repository (Marmara Üniversitesi)",
+  "checked_at": "2026-11-19"
+ },
+ "Genetic and Evolutionary Computation Conference Companion (GECCO Companion)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Genetic and Evolutionary Computation Conference Companion (GECCO Companion)",
+  "query": "Genetic and Evolutionary Computation Conference Companion (GECCO Companion)",
+  "checked_at": "2026-11-19"
+ },
+ "CRC Press eBooks": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "CRC Press eBooks",
+  "query": "CRC Press eBooks",
+  "checked_at": "2026-11-19"
+ },
+ "3008-1947": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Financial economics insights.",
+  "query": "Financial economics insights.",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2078-5585": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q3"
+  ],
+  "zone": "4区",
+  "name": "South African Journal of Business Management",
+  "query": "2078-5585",
+  "checked_at": "2026-11-19"
+ },
+ "Minds at UW (University of Wisconsin)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Minds at UW (University of Wisconsin)",
+  "query": "Minds at UW (University of Wisconsin)",
+  "checked_at": "2026-11-19"
+ },
+ "0952-1976": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Engineering Applications of Artificial Intelligence",
+  "query": "0952-1976",
+  "checked_at": "2026-11-19"
+ },
+ "2504-3110": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "3区",
+  "name": "Fractal and Fractional",
+  "query": "2504-3110",
+  "checked_at": "2026-11-19"
+ },
+ "Gothenburg University Publications Electronic Archive (Gothenburg University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Gothenburg University Publications Electronic Archive (Gothenburg University)",
+  "query": "Gothenburg University Publications Electronic Archive (Gothenburg University)",
+  "checked_at": "2026-11-19"
+ },
+ "Chapman & Hall/CRC eBooks": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Chapman & Hall/CRC eBooks",
+  "query": "Chapman & Hall/CRC eBooks",
+  "checked_at": "2026-11-19"
+ },
+ "Harvard Dataverse": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Harvard Dataverse",
+  "query": "Harvard Dataverse",
+  "checked_at": "2026-11-19"
+ },
+ "2577-8218": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of Modern Economy",
+  "query": "2577-8218",
+  "checked_at": "2026-11-19"
+ },
+ "Boloka Institutional Repository (North-west University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Boloka Institutional Repository (North-west University)",
+  "query": "Boloka Institutional Repository (North-west University)",
+  "checked_at": "2026-11-19"
+ },
+ "Arrow@dit (Dublin Institute of Technology)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Arrow@dit (Dublin Institute of Technology)",
+  "query": "Arrow@dit (Dublin Institute of Technology)",
+  "checked_at": "2026-11-19"
+ },
+ "The Japanese Society for Artificial Intelligence": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "The Japanese Society for Artificial Intelligence",
+  "query": "The Japanese Society for Artificial Intelligence",
+  "checked_at": "2026-11-19"
+ },
+ "International Conference on Digital Economy, Blockchain and Artificial Intelligence (DEBAI)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Conference on Digital Economy, Blockchain and Artificial Intelligence (DEBAI)",
+  "query": "International Conference on Digital Economy, Blockchain and Artificial Intelligence (DEBAI)",
+  "checked_at": "2026-11-19"
+ },
+ "Aaltodoc (Aalto University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Aaltodoc (Aalto University)",
+  "query": "Aaltodoc (Aalto University)",
+  "checked_at": "2026-11-19"
+ },
+ "Rice Research Repository (Rice University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Rice Research Repository (Rice University)",
+  "query": "Rice Research Repository (Rice University)",
+  "checked_at": "2026-11-19"
+ },
+ "Institutional Repositories DataBase (IRDB)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Institutional Repositories DataBase (IRDB)",
+  "query": "Institutional Repositories DataBase (IRDB)",
+  "checked_at": "2026-11-19"
+ },
+ "International Conference on Big Data Economy and Information Management (BDEIM)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Conference on Big Data Economy and Information Management (BDEIM)",
+  "query": "International Conference on Big Data Economy and Information Management (BDEIM)",
+  "checked_at": "2026-11-19"
+ },
+ "2325-2251": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Statistics and Applications",
+  "query": "2325-2251",
+  "checked_at": "2026-11-19"
+ },
+ "2169-6020": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Economic management journal",
+  "query": "2169-6020",
+  "checked_at": "2026-11-19"
+ },
+ "DiVA (Digitala Vetenskapliga Arkivet)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "DiVA (Digitala Vetenskapliga Arkivet)",
+  "query": "DiVA (Digitala Vetenskapliga Arkivet)",
+  "checked_at": "2026-11-19"
+ },
+ "International Conference on Computer Information Science and Artificial Intelligence (CISAI)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Conference on Computer Information Science and Artificial Intelligence (CISAI)",
+  "query": "International Conference on Computer Information Science and Artificial Intelligence (CISAI)",
+  "checked_at": "2026-11-19"
+ },
+ "Digital Repository (National Repository of Grey Literature)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Digital Repository (National Repository of Grey Literature)",
+  "query": "Digital Repository (National Repository of Grey Literature)",
+  "checked_at": "2026-11-19"
+ },
+ "1751-6447": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Afro-Asian J of Finance and Accounting",
+  "query": "1751-6447",
+  "checked_at": "2026-11-19"
+ },
+ "IEEE International Conference on Recent Advances in Computing and Systems (REACS)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "IEEE International Conference on Recent Advances in Computing and Systems (REACS)",
+  "query": "IEEE International Conference on Recent Advances in Computing and Systems (REACS)",
+  "checked_at": "2026-11-19"
+ },
+ "RECERCAT (Consorci de Serveis Universitaris de Catalunya)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)",
+  "query": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)",
+  "checked_at": "2026-11-19"
+ },
+ "Lehigh Preserve": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Lehigh Preserve",
+  "query": "Lehigh Preserve",
+  "checked_at": "2026-11-19"
+ },
+ "2167-9533": {
+  "found": true,
+  "hits": 2,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "1911-8066",
+  "name": "Journal of Financial Risk Management",
+  "query": "Journal of Financial Risk Management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2367-3389": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Lecture notes in networks and systems",
+  "query": "2367-3389",
+  "checked_at": "2026-11-19"
+ },
+ "2522-5022": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Lecture notes on multidisciplinary industrial engineering",
+  "query": "2522-5022",
+  "checked_at": "2026-11-19"
+ },
+ "2395-1656": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "ICTACT Journal on Management Studies",
+  "query": "2395-1656",
+  "checked_at": "2026-11-19"
+ },
+ "2633-2299": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "London Journal of Research in Management & Business",
+  "query": "2633-2299",
+  "checked_at": "2026-11-19"
+ },
+ "0943-4062": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "4区",
+  "name": "Computational Statistics",
+  "query": "0943-4062",
+  "checked_at": "2026-11-19"
+ },
+ "2367-0126": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "4区",
+  "name": "Probability Uncertainty and Quantitative Risk",
+  "query": "2367-0126",
+  "checked_at": "2026-11-19"
+ },
+ "Athens University of Economics & Business": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Athens University of Economics & Business",
+  "query": "Athens University of Economics & Business",
+  "checked_at": "2026-11-19"
+ },
+ "Lume (Universidade Federal do Rio Grande do Sul)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Lume (Universidade Federal do Rio Grande do Sul)",
+  "query": "Lume (Universidade Federal do Rio Grande do Sul)",
+  "checked_at": "2026-11-19"
+ },
+ "2709-4685": {
+  "found": true,
+  "hits": 9,
+  "jcr": [
+   "Q3",
+   "Q4",
+   "Q2"
+  ],
+  "zone": "3区",
+  "matched_issn": "0725-6868",
+  "name": "InterConf",
+  "query": "InterConf",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "International Conference on Intelligent Computing and Data Analysis": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Conference on Intelligent Computing and Data Analysis",
+  "query": "International Conference on Intelligent Computing and Data Analysis",
+  "checked_at": "2026-11-19"
+ },
+ "2222-6990": {
+  "found": true,
+  "hits": 3,
+  "jcr": [
+   "Q3",
+   "Q2"
+  ],
+  "zone": "4区",
+  "matched_issn": "2455-5568",
+  "name": "International Journal of Academic Research in Business and Social Sciences",
+  "query": "International Journal of Academic Research in Business and Social Sciences",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "International Conference on Social Sciences and Economic Development (ICSSED)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Conference on Social Sciences and Economic Development (ICSSED)",
+  "query": "International Conference on Social Sciences and Economic Development (ICSSED)",
+  "checked_at": "2026-11-19"
+ },
+ "2577-1876": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "INTERNATIONAL JOURNAL OF RESEARCH IN MANAGEMENT FIELDS",
+  "query": "2577-1876",
+  "checked_at": "2026-11-19"
+ },
+ "2662-9399": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "SN Business & Economics",
+  "query": "SN Business & Economics",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2261-2424": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "SHS Web of Conferences",
+  "query": "2261-2424",
+  "checked_at": "2026-11-19"
+ },
+ "name:Decisions in Economics and Finance": {
+  "found": true,
+  "hits": 2,
+  "jcr": [
+   "Q2",
+   "Q3",
+   "Q4"
+  ],
+  "zone": "3区",
+  "matched_issn": "0143-6570",
+  "name": "Decisions in Economics and Finance",
+  "query": "Decisions in Economics and Finance",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Asian Conference on Innovation in Technology (ASIANCON)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Asian Conference on Innovation in Technology (ASIANCON)",
+  "query": "Asian Conference on Innovation in Technology (ASIANCON)",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:The proceedings of the IEEE Conference on Control Applications/The proceedings of the ... IEEE Conference on Control Applications": {
+  "found": true,
+  "hits": 6,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "2305-7254",
+  "name": "The proceedings of the IEEE Conference on Control Applications/The proceedings of the ... IEEE Conference on Control Applications",
+  "query": "The proceedings of the IEEE Conference on Control Applications/The proceedings of the ... IEEE Conference on Control Applications",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:arXiv (Cornell University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "arXiv (Cornell University)",
+  "query": "arXiv (Cornell University)",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Statistical Methods & Applications": {
+  "found": true,
+  "hits": 2,
+  "jcr": [
+   "Q2",
+   "Q3"
+  ],
+  "zone": "4区",
+  "matched_issn": "1618-2510",
+  "name": "Statistical Methods & Applications",
+  "query": "Statistical Methods & Applications",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Working Papers.": {
+  "found": true,
+  "hits": 12,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "3区",
+  "matched_issn": "0078-8228",
+  "name": "Working Papers.",
+  "query": "Working Papers.",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:SSRN Electronic Journal": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "SSRN Electronic Journal",
+  "query": "SSRN Electronic Journal",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Journal of Mathematical Finance": {
+  "found": true,
+  "hits": 3,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q1"
+  ],
+  "zone": "3区",
+  "matched_issn": "0960-1627",
+  "name": "Journal of Mathematical Finance",
+  "query": "Journal of Mathematical Finance",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Theoretical Economics Letters": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Theoretical Economics Letters",
+  "query": "Theoretical Economics Letters",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:BCP Business & Management": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "BCP Business & Management",
+  "query": "BCP Business & Management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:International Journal of Science and Research (IJSR)": {
+  "found": true,
+  "hits": 114,
+  "jcr": [
+   "Q3",
+   "Q3",
+   "Q2"
+  ],
+  "zone": "3区",
+  "matched_issn": "2086-5023",
+  "name": "International Journal of Science and Research (IJSR)",
+  "query": "International Journal of Science and Research (IJSR)",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Atlantis Highlights in Computer Sciences/Atlantis highlights in computer sciences": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Atlantis Highlights in Computer Sciences/Atlantis highlights in computer sciences",
+  "query": "Atlantis Highlights in Computer Sciences/Atlantis highlights in computer sciences",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Frontiers in Business Economics and Management": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Frontiers in Business Economics and Management",
+  "query": "Frontiers in Business Economics and Management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Open Journal of Social Sciences": {
+  "found": true,
+  "hits": 2,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "2590-2911",
+  "name": "Open Journal of Social Sciences",
+  "query": "Open Journal of Social Sciences",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Managerial Economics": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q3"
+  ],
+  "zone": "3区",
+  "matched_issn": "0143-6570",
+  "name": "Managerial Economics",
+  "query": "Managerial Economics",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:ACM International Conference on AI in Finance (ICAIF)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "ACM International Conference on AI in Finance (ICAIF)",
+  "query": "ACM International Conference on AI in Finance (ICAIF)",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Research Square": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "2413-9505",
+  "name": "Research Square",
+  "query": "Research Square",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:ANZIAM Journal": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "4区",
+  "matched_issn": "1446-1811",
+  "name": "ANZIAM Journal",
+  "query": "ANZIAM Journal",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Advances in Economics Management and Political Sciences": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Advances in Economics Management and Political Sciences",
+  "query": "Advances in Economics Management and Political Sciences",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Advances in computer science research": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "2666-2558",
+  "name": "Advances in computer science research",
+  "query": "Advances in computer science research",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:BULLETIN OF HIGH TECHNOLOGY": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "BULLETIN OF HIGH TECHNOLOGY",
+  "query": "BULLETIN OF HIGH TECHNOLOGY",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Technology and Investment": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Technology and Investment",
+  "query": "Technology and Investment",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:International Journal of Trade Economics and Finance": {
+  "found": true,
+  "hits": 6,
+  "jcr": [
+   "Q3",
+   "Q3",
+   "Q2"
+  ],
+  "zone": "3区",
+  "matched_issn": "0885-3908",
+  "name": "International Journal of Trade Economics and Finance",
+  "query": "International Journal of Trade Economics and Finance",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:International Conference on Machinery, Materials and Computing Technology (ICMMCT)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "matched_issn": "2192-3183",
+  "name": "International Conference on Machinery, Materials and Computing Technology (ICMMCT)",
+  "query": "International Conference on Machinery, Materials and Computing Technology (ICMMCT)",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+  "query": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:International Journal of Computer Applications": {
+  "found": true,
+  "hits": 7,
+  "jcr": [
+   "Q4",
+   "Q3"
+  ],
+  "zone": "4区",
+  "matched_issn": "1206-212X",
+  "name": "International Journal of Computer Applications",
+  "query": "International Journal of Computer Applications",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:IISES International Academic Conference": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "IISES International Academic Conference",
+  "query": "IISES International Academic Conference",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Financial Engineering and Risk Management": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "matched_issn": "2424-7863",
+  "name": "Financial Engineering and Risk Management",
+  "query": "Financial Engineering and Risk Management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Academic Journal of Business & Management": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Academic Journal of Business & Management",
+  "query": "Academic Journal of Business & Management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Journal of fintech and business analysis.": {
+  "found": true,
+  "hits": 3,
+  "jcr": [
+   "Q2",
+   "Q1"
+  ],
+  "zone": "2区",
+  "matched_issn": "1050-6519",
+  "name": "Journal of fintech and business analysis.",
+  "query": "Journal of fintech and business analysis.",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Highlights in Business Economics and Management": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Highlights in Business Economics and Management",
+  "query": "Highlights in Business Economics and Management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:ICADE Revista de la Facultad de Derecho": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0120-3886",
+  "name": "ICADE Revista de la Facultad de Derecho",
+  "query": "ICADE Revista de la Facultad de Derecho",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:SU+ Digital Repository (Strathmore University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "SU+ Digital Repository (Strathmore University)",
+  "query": "SU+ Digital Repository (Strathmore University)",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Indian Journal of Research in Capital Markets": {
+  "found": true,
+  "hits": 12,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q2"
+  ],
+  "zone": "4区",
+  "matched_issn": "0367-6722",
+  "name": "Indian Journal of Research in Capital Markets",
+  "query": "Indian Journal of Research in Capital Markets",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Financial markets and portfolio management": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "3区",
+  "matched_issn": "1934-4554",
+  "name": "Financial markets and portfolio management",
+  "query": "Financial markets and portfolio management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Highlights in Science Engineering and Technology": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Highlights in Science Engineering and Technology",
+  "query": "Highlights in Science Engineering and Technology",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:International Research Journal of Modernization in Engineering Technology and Science": {
+  "found": true,
+  "hits": 177,
+  "jcr": [
+   "Q4",
+   "Q3",
+   "Q1"
+  ],
+  "zone": "4区",
+  "matched_issn": "1985-4668",
+  "name": "International Research Journal of Modernization in Engineering Technology and Science",
+  "query": "International Research Journal of Modernization in Engineering Technology and Science",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Springer eBooks": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Springer eBooks",
+  "query": "Springer eBooks",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Financial economics insights.": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Financial economics insights.",
+  "query": "Financial economics insights.",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Minds at UW (University of Wisconsin)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "Minds at UW (University of Wisconsin)",
+  "query": "Minds at UW (University of Wisconsin)",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:Journal of Financial Risk Management": {
+  "found": true,
+  "hits": 2,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "1911-8066",
+  "name": "Journal of Financial Risk Management",
+  "query": "Journal of Financial Risk Management",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:InterConf": {
+  "found": true,
+  "hits": 9,
+  "jcr": [
+   "Q3",
+   "Q4",
+   "Q2"
+  ],
+  "zone": "3区",
+  "matched_issn": "0725-6868",
+  "name": "InterConf",
+  "query": "InterConf",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:International Journal of Academic Research in Business and Social Sciences": {
+  "found": true,
+  "hits": 3,
+  "jcr": [
+   "Q3",
+   "Q2"
+  ],
+  "zone": "4区",
+  "matched_issn": "2455-5568",
+  "name": "International Journal of Academic Research in Business and Social Sciences",
+  "query": "International Journal of Academic Research in Business and Social Sciences",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:International Conference on Social Sciences and Economic Development (ICSSED)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "matched_issn": "2192-3183",
+  "name": "International Conference on Social Sciences and Economic Development (ICSSED)",
+  "query": "International Conference on Social Sciences and Economic Development (ICSSED)",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "name:SN Business & Economics": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "matched_issn": "0031-9007",
+  "name": "SN Business & Economics",
+  "query": "SN Business & Economics",
+  "by": "name",
+  "checked_at": "2026-11-19"
+ },
+ "2196-1115": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Journal Of Big Data",
+  "query": "2196-1115",
+  "checked_at": "2026-11-20"
+ },
+ "International Conference on IoT Based Control Networks and Intelligent Systems (ICICNIS)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Conference on IoT Based Control Networks and Intelligent Systems (ICICNIS)",
+  "query": "International Conference on IoT Based Control Networks and Intelligent Systems (ICICNIS)",
+  "checked_at": "2026-11-20"
+ },
+ "1868-7865": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of the Knowledge Economy",
+  "query": "1868-7865",
+  "checked_at": "2026-11-20"
+ },
+ "2571-9394": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "3区",
+  "name": "Forecasting",
+  "query": "2571-9394",
+  "checked_at": "2026-11-20"
+ },
+ "1673-7326": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "Frontiers of Business Research in China",
+  "query": "1673-7326",
+  "checked_at": "2026-11-20"
+ },
+ "0453-4514": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of the Operations Research Society of Japan",
+  "query": "0453-4514",
+  "checked_at": "2026-11-20"
+ },
+ "2190-9733": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "European Actuarial Journal",
+  "query": "2190-9733",
+  "checked_at": "2026-11-20"
+ },
+ "IEEE International Symposium on Intelligent Systems and Informatics (SISY)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "IEEE International Symposium on Intelligent Systems and Informatics (SISY)",
+  "query": "IEEE International Symposium on Intelligent Systems and Informatics (SISY)",
+  "checked_at": "2026-11-20"
+ },
+ "2582-7421": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "International Journal of Research Publication and Reviews",
+  "query": "2582-7421",
+  "checked_at": "2026-11-20"
+ },
+ "2220-9352": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of Governance and Regulation",
+  "query": "2220-9352",
+  "checked_at": "2026-11-20"
+ },
+ "2524-6186": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Digital Finance",
+  "query": "2524-6186",
+  "checked_at": "2026-11-20"
+ },
+ "1569-7371": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Risk and Decision Analysis",
+  "query": "1569-7371",
+  "checked_at": "2026-11-20"
+ },
+ "1568-4946": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Applied Soft Computing",
+  "query": "1568-4946",
+  "checked_at": "2026-11-20"
+ },
+ "International Conference on Computational Intelligence and Intelligent Systems (CIIS)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Conference on Computational Intelligence and Intelligent Systems (CIIS)",
+  "query": "International Conference on Computational Intelligence and Intelligent Systems (CIIS)",
+  "checked_at": "2026-11-20"
+ },
+ "1331-677X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Economic Research-Ekonomska Istraživanja",
+  "query": "1331-677X",
+  "checked_at": "2026-11-20"
+ },
+ "International Journal of African and Asian Studies": {
+  "found": true,
+  "hits": 5,
+  "jcr": [
+   "Q3",
+   "Q4",
+   "Q2"
+  ],
+  "zone": "4区",
+  "name": "International Journal of African and Asian Studies",
+  "query": "International Journal of African and Asian Studies",
+  "checked_at": "2026-11-20"
+ },
+ "0424-267X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q3"
+  ],
+  "zone": "4区",
+  "name": "ECONOMIC COMPUTATION AND ECONOMIC CYBERNETICS STUDIES AND RESEARCH",
+  "query": "0424-267X",
+  "checked_at": "2026-11-20"
+ },
+ "IEEE International Conference for Convergence in Technology (I2CT)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "IEEE International Conference for Convergence in Technology (I2CT)",
+  "query": "IEEE International Conference for Convergence in Technology (I2CT)",
+  "checked_at": "2026-11-20"
+ },
+ "1058-6393": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Asilomar Conference on Signals, Systems and Computers (ACSSC)",
+  "query": "1058-6393",
+  "checked_at": "2026-11-20"
+ },
+ "1499-691X": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of Applied Business and Economics",
+  "query": "1499-691X",
+  "checked_at": "2026-11-20"
+ },
+ "1975-4701": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of the Korea Academia-Industrial cooperation Society",
+  "query": "1975-4701",
+  "checked_at": "2026-11-20"
+ },
+ "3078-7629": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of Computer Signal and System Research",
+  "query": "3078-7629",
+  "checked_at": "2026-11-20"
+ },
+ "2029-4433": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q1"
+  ],
+  "zone": "3区",
+  "name": "Journal of Business Economics and Management",
+  "query": "2029-4433",
+  "checked_at": "2026-11-20"
+ },
+ "Modeling Information Systems and Technologies": {
+  "found": true,
+  "hits": 2,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "3区",
+  "name": "Modeling Information Systems and Technologies",
+  "query": "Modeling Information Systems and Technologies",
+  "checked_at": "2026-11-20"
+ },
+ "mediaTUM (Technical University of Munich)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "mediaTUM (Technical University of Munich)",
+  "query": "mediaTUM (Technical University of Munich)",
+  "checked_at": "2026-11-20"
+ },
+ "2352-5428": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Advances in economics, business and management research/Advances in Economics, Business and Management Research",
+  "query": "2352-5428",
+  "checked_at": "2026-11-20"
+ },
+ "Summit (Simon Fraser University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Summit (Simon Fraser University)",
+  "query": "Summit (Simon Fraser University)",
+  "checked_at": "2026-11-20"
+ },
+ "International Conference on Finance, Economics, Management and IT Business (FEMIB)": {
+  "found": true,
+  "hits": 8,
+  "jcr": [
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "International Conference on Finance, Economics, Management and IT Business (FEMIB)",
+  "query": "International Conference on Finance, Economics, Management and IT Business (FEMIB)",
+  "checked_at": "2026-11-20"
+ },
+ "Izdevniecība “Baltija Publishing” eBooks": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Izdevniecība “Baltija Publishing” eBooks",
+  "query": "Izdevniecība “Baltija Publishing” eBooks",
+  "checked_at": "2026-11-20"
+ },
+ "IntechOpen eBooks": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "IntechOpen eBooks",
+  "query": "IntechOpen eBooks",
+  "checked_at": "2026-11-20"
+ },
+ "1109-9526": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "WSEAS TRANSACTIONS ON BUSINESS AND ECONOMICS",
+  "query": "1109-9526",
+  "checked_at": "2026-11-20"
+ },
+ "投资研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "投资研究",
+  "query": "投资研究",
+  "checked_at": "2026-11-20"
+ },
+ "运筹与管理": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "运筹与管理",
+  "query": "运筹与管理",
+  "checked_at": "2026-11-20"
+ },
+ "价格理论与实践": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "价格理论与实践",
+  "query": "价格理论与实践",
+  "checked_at": "2026-11-20"
+ },
+ "系统工程理论与实践": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "系统工程理论与实践",
+  "query": "系统工程理论与实践",
+  "checked_at": "2026-11-20"
+ },
+ "学习与探索": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "学习与探索",
+  "query": "学习与探索",
+  "checked_at": "2026-11-20"
+ },
+ "统计与信息论坛": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "统计与信息论坛",
+  "query": "统计与信息论坛",
+  "checked_at": "2026-11-20"
+ },
+ "统计研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "统计研究",
+  "query": "统计研究",
+  "checked_at": "2026-11-20"
+ },
+ "中国科学技术大学学报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "中国科学技术大学学报",
+  "query": "中国科学技术大学学报",
+  "checked_at": "2026-11-20"
+ },
+ "系统管理学报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "系统管理学报",
+  "query": "系统管理学报",
+  "checked_at": "2026-11-20"
+ },
+ "南京师大学报(自然科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "南京师大学报(自然科学版)",
+  "query": "南京师大学报(自然科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "上海金融": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "上海金融",
+  "query": "上海金融",
+  "checked_at": "2026-11-20"
+ },
+ "系统科学与数学": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "系统科学与数学",
+  "query": "系统科学与数学",
+  "checked_at": "2026-11-20"
+ },
+ "管理评论": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "管理评论",
+  "query": "管理评论",
+  "checked_at": "2026-11-20"
+ },
+ "南方金融": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "南方金融",
+  "query": "南方金融",
+  "checked_at": "2026-11-20"
+ },
+ "管理科学": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "管理科学",
+  "query": "管理科学",
+  "checked_at": "2026-11-20"
+ },
+ "系统工程": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "系统工程",
+  "query": "系统工程",
+  "checked_at": "2026-11-20"
+ },
+ "财经论丛": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "财经论丛",
+  "query": "财经论丛",
+  "checked_at": "2026-11-20"
+ },
+ "实验室研究与探索": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "实验室研究与探索",
+  "query": "实验室研究与探索",
+  "checked_at": "2026-11-20"
+ },
+ "浙江大学学报(理学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "浙江大学学报(理学版)",
+  "query": "浙江大学学报(理学版)",
+  "checked_at": "2026-11-20"
+ },
+ "中国管理科学": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "中国管理科学",
+  "query": "中国管理科学",
+  "checked_at": "2026-11-20"
+ },
+ "数理统计与管理": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "数理统计与管理",
+  "query": "数理统计与管理",
+  "checked_at": "2026-11-20"
+ },
+ "应用概率统计": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "应用概率统计",
+  "query": "应用概率统计",
+  "checked_at": "2026-11-20"
+ },
+ "财经问题研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "财经问题研究",
+  "query": "财经问题研究",
+  "checked_at": "2026-11-20"
+ },
+ "金融理论与实践": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "金融理论与实践",
+  "query": "金融理论与实践",
+  "checked_at": "2026-11-20"
+ },
+ "统计与决策": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "统计与决策",
+  "query": "统计与决策",
+  "checked_at": "2026-11-20"
+ },
+ "财会月刊": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "财会月刊",
+  "query": "财会月刊",
+  "checked_at": "2026-11-20"
+ },
+ "世界经济研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "世界经济研究",
+  "query": "世界经济研究",
+  "checked_at": "2026-11-20"
+ },
+ "中国农史": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "中国农史",
+  "query": "中国农史",
+  "checked_at": "2026-11-20"
+ },
+ "计算机应用研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "计算机应用研究",
+  "query": "计算机应用研究",
+  "checked_at": "2026-11-20"
+ },
+ "证券市场导报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "证券市场导报",
+  "query": "证券市场导报",
+  "checked_at": "2026-11-20"
+ },
+ "中国科技论文": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "中国科技论文",
+  "query": "中国科技论文",
+  "checked_at": "2026-11-20"
+ },
+ "武汉金融": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "武汉金融",
+  "query": "武汉金融",
+  "checked_at": "2026-11-20"
+ },
+ "浙江工业大学学报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "浙江工业大学学报",
+  "query": "浙江工业大学学报",
+  "checked_at": "2026-11-20"
+ },
+ "桂林理工大学学报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "桂林理工大学学报",
+  "query": "桂林理工大学学报",
+  "checked_at": "2026-11-20"
+ },
+ "山西财经大学学报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "山西财经大学学报",
+  "query": "山西财经大学学报",
+  "checked_at": "2026-11-20"
+ },
+ "清华大学学报(自然科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "清华大学学报(自然科学版)",
+  "query": "清华大学学报(自然科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "金融经济学研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "金融经济学研究",
+  "query": "金融经济学研究",
+  "checked_at": "2026-11-20"
+ },
+ "中央财经大学学报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "中央财经大学学报",
+  "query": "中央财经大学学报",
+  "checked_at": "2026-11-20"
+ },
+ "华东师范大学学报(自然科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "华东师范大学学报(自然科学版)",
+  "query": "华东师范大学学报(自然科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "江西社会科学": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "江西社会科学",
+  "query": "江西社会科学",
+  "checked_at": "2026-11-20"
+ },
+ "科研管理": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "科研管理",
+  "query": "科研管理",
+  "checked_at": "2026-11-20"
+ },
+ "科学管理研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "科学管理研究",
+  "query": "科学管理研究",
+  "checked_at": "2026-11-20"
+ },
+ "科学技术与工程": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "科学技术与工程",
+  "query": "科学技术与工程",
+  "checked_at": "2026-11-20"
+ },
+ "中国商贸": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "中国商贸",
+  "query": "中国商贸",
+  "checked_at": "2026-11-20"
+ },
+ "河南社会科学": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "河南社会科学",
+  "query": "河南社会科学",
+  "checked_at": "2026-11-20"
+ },
+ "数学物理学报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "数学物理学报",
+  "query": "数学物理学报",
+  "checked_at": "2026-11-20"
+ },
+ "金融研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "金融研究",
+  "query": "金融研究",
+  "checked_at": "2026-11-20"
+ },
+ "商业研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "商业研究",
+  "query": "商业研究",
+  "checked_at": "2026-11-20"
+ },
+ "财贸研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "财贸研究",
+  "query": "财贸研究",
+  "checked_at": "2026-11-20"
+ },
+ "华东政法大学学报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "华东政法大学学报",
+  "query": "华东政法大学学报",
+  "checked_at": "2026-11-20"
+ },
+ "数学的实践与认识": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "数学的实践与认识",
+  "query": "数学的实践与认识",
+  "checked_at": "2026-11-20"
+ },
+ "重庆邮电大学学报(自然科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "重庆邮电大学学报(自然科学版)",
+  "query": "重庆邮电大学学报(自然科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "求是学刊": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "求是学刊",
+  "query": "求是学刊",
+  "checked_at": "2026-11-20"
+ },
+ "中国油脂": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "中国油脂",
+  "query": "中国油脂",
+  "checked_at": "2026-11-20"
+ },
+ "世界经济与政治论坛": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "世界经济与政治论坛",
+  "query": "世界经济与政治论坛",
+  "checked_at": "2026-11-20"
+ },
+ "财经理论与实践": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "财经理论与实践",
+  "query": "财经理论与实践",
+  "checked_at": "2026-11-20"
+ },
+ "上海经济研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "上海经济研究",
+  "query": "上海经济研究",
+  "checked_at": "2026-11-20"
+ },
+ "农业技术经济": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "农业技术经济",
+  "query": "农业技术经济",
+  "checked_at": "2026-11-20"
+ },
+ "中草药": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "中草药",
+  "query": "中草药",
+  "checked_at": "2026-11-20"
+ },
+ "西南师范大学学报(自然科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "西南师范大学学报(自然科学版)",
+  "query": "西南师范大学学报(自然科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "中国农业资源与区划": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "中国农业资源与区划",
+  "query": "中国农业资源与区划",
+  "checked_at": "2026-11-20"
+ },
+ "金融与经济": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "金融与经济",
+  "query": "金融与经济",
+  "checked_at": "2026-11-20"
+ },
+ "西南民族大学学报(人文社科版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "西南民族大学学报(人文社科版)",
+  "query": "西南民族大学学报(人文社科版)",
+  "checked_at": "2026-11-20"
+ },
+ "金融评论": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "金融评论",
+  "query": "金融评论",
+  "checked_at": "2026-11-20"
+ },
+ "国际商务(对外经济贸易大学学报)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "国际商务(对外经济贸易大学学报)",
+  "query": "国际商务(对外经济贸易大学学报)",
+  "checked_at": "2026-11-20"
+ },
+ "华东经济管理": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "华东经济管理",
+  "query": "华东经济管理",
+  "checked_at": "2026-11-20"
+ },
+ "湖南大学学报(社会科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "湖南大学学报(社会科学版)",
+  "query": "湖南大学学报(社会科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "广东社会科学": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "广东社会科学",
+  "query": "广东社会科学",
+  "checked_at": "2026-11-20"
+ },
+ "经济问题": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "经济问题",
+  "query": "经济问题",
+  "checked_at": "2026-11-20"
+ },
+ "华南农业大学学报(社会科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "华南农业大学学报(社会科学版)",
+  "query": "华南农业大学学报(社会科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "系统工程学报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "系统工程学报",
+  "query": "系统工程学报",
+  "checked_at": "2026-11-20"
+ },
+ "管理现代化": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "管理现代化",
+  "query": "管理现代化",
+  "checked_at": "2026-11-20"
+ },
+ "中国矿业": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "中国矿业",
+  "query": "中国矿业",
+  "checked_at": "2026-11-20"
+ },
+ "现代经济探讨": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "现代经济探讨",
+  "query": "现代经济探讨",
+  "checked_at": "2026-11-20"
+ },
+ "管理世界": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "管理世界",
+  "query": "管理世界",
+  "checked_at": "2026-11-20"
+ },
+ "法商研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "法商研究",
+  "query": "法商研究",
+  "checked_at": "2026-11-20"
+ },
+ "南开经济研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "南开经济研究",
+  "query": "南开经济研究",
+  "checked_at": "2026-11-20"
+ },
+ "湖北社会科学": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "湖北社会科学",
+  "query": "湖北社会科学",
+  "checked_at": "2026-11-20"
+ },
+ "保险研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "保险研究",
+  "query": "保险研究",
+  "checked_at": "2026-11-20"
+ },
+ "管理科学学报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "管理科学学报",
+  "query": "管理科学学报",
+  "checked_at": "2026-11-20"
+ },
+ "金融发展研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "金融发展研究",
+  "query": "金融发展研究",
+  "checked_at": "2026-11-20"
+ },
+ "会计之友": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "会计之友",
+  "query": "会计之友",
+  "checked_at": "2026-11-20"
+ },
+ "中国金融": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "中国金融",
+  "query": "中国金融",
+  "checked_at": "2026-11-20"
+ },
+ "经济体制改革": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "经济体制改革",
+  "query": "经济体制改革",
+  "checked_at": "2026-11-20"
+ },
+ "北京工商大学学报(社会科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "北京工商大学学报(社会科学版)",
+  "query": "北京工商大学学报(社会科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "计算机应用": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "计算机应用",
+  "query": "计算机应用",
+  "checked_at": "2026-11-20"
+ },
+ "经济学动态": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "经济学动态",
+  "query": "经济学动态",
+  "checked_at": "2026-11-20"
+ },
+ "管理工程学报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "管理工程学报",
+  "query": "管理工程学报",
+  "checked_at": "2026-11-20"
+ },
+ "西南大学学报(自然科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "西南大学学报(自然科学版)",
+  "query": "西南大学学报(自然科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "金融论坛": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "金融论坛",
+  "query": "金融论坛",
+  "checked_at": "2026-11-20"
+ },
+ "东北大学学报(社会科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "东北大学学报(社会科学版)",
+  "query": "东北大学学报(社会科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "智能系统学报": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "智能系统学报",
+  "query": "智能系统学报",
+  "checked_at": "2026-11-20"
+ },
+ "预测": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "预测",
+  "query": "预测",
+  "checked_at": "2026-11-20"
+ },
+ "经济理论与经济管理": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "经济理论与经济管理",
+  "query": "经济理论与经济管理",
+  "checked_at": "2026-11-20"
+ },
+ "福建师范大学学报(哲学社会科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "福建师范大学学报(哲学社会科学版)",
+  "query": "福建师范大学学报(哲学社会科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "财会通讯": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "财会通讯",
+  "query": "财会通讯",
+  "checked_at": "2026-11-20"
+ },
+ "经济研究参考": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "经济研究参考",
+  "query": "经济研究参考",
+  "checked_at": "2026-11-20"
+ },
+ "国际经济评论": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "国际经济评论",
+  "query": "国际经济评论",
+  "checked_at": "2026-11-20"
+ },
+ "企业经济": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "企业经济",
+  "query": "企业经济",
+  "checked_at": "2026-11-20"
+ },
+ "研究与发展管理": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "研究与发展管理",
+  "query": "研究与发展管理",
+  "checked_at": "2026-11-20"
+ },
+ "南开管理评论": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "南开管理评论",
+  "query": "南开管理评论",
+  "checked_at": "2026-11-20"
+ },
+ "税务与经济": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "税务与经济",
+  "query": "税务与经济",
+  "checked_at": "2026-11-20"
+ },
+ "经济学(季刊)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "经济学(季刊)",
+  "query": "经济学(季刊)",
+  "checked_at": "2026-11-20"
+ },
+ "当代经济科学": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "当代经济科学",
+  "query": "当代经济科学",
+  "checked_at": "2026-11-20"
+ },
+ "河北大学学报(哲学社会科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "河北大学学报(哲学社会科学版)",
+  "query": "河北大学学报(哲学社会科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "西安交通大学学报(社会科学版)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "西安交通大学学报(社会科学版)",
+  "query": "西安交通大学学报(社会科学版)",
+  "checked_at": "2026-11-20"
+ },
+ "经济与管理研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "经济与管理研究",
+  "query": "经济与管理研究",
+  "checked_at": "2026-11-20"
+ },
+ "经济评论": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "经济评论",
+  "query": "经济评论",
+  "checked_at": "2026-11-20"
+ },
+ "技术经济与管理研究": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "技术经济与管理研究",
+  "query": "技术经济与管理研究",
+  "checked_at": "2026-11-20"
+ },
+ "商业经济与管理": {
+  "found": false,
+  "hits": 0,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "3区",
+  "name": "商业经济与管理",
+  "query": "商业经济与管理",
+  "checked_at": "2026-11-20"
+ },
+ "0165-1889": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Journal of Economic Dynamics and Control",
+  "query": "0165-1889",
+  "checked_at": "2026-11-20"
+ },
+ "0305-9049": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q2",
+   "Q1"
+  ],
+  "zone": "3区",
+  "name": "Oxford Bulletin of Economics and Statistics",
+  "query": "0305-9049",
+  "checked_at": "2026-11-20"
+ },
+ "0012-9682": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Econometrica",
+  "query": "0012-9682",
+  "checked_at": "2026-11-20"
+ },
+ "0266-4666": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q4",
+   "Q4",
+   "Q4"
+  ],
+  "zone": "4区",
+  "name": "Econometric Theory",
+  "query": "0266-4666",
+  "checked_at": "2026-11-20"
+ },
+ "0304-4076": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Journal of Econometrics",
+  "query": "0304-4076",
+  "checked_at": "2026-11-20"
+ },
+ "0003-6846": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Applied Economics",
+  "query": "0003-6846",
+  "checked_at": "2026-11-20"
+ },
+ "Cambridge University Press eBooks": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Cambridge University Press eBooks",
+  "query": "Cambridge University Press eBooks",
+  "checked_at": "2026-11-20"
+ },
+ "0883-7252": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Journal of Applied Econometrics",
+  "query": "0883-7252",
+  "checked_at": "2026-11-20"
+ },
+ "0143-9782": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q3"
+  ],
+  "zone": "3区",
+  "name": "Journal of Time Series Analysis",
+  "query": "0143-9782",
+  "checked_at": "2026-11-20"
+ },
+ "0022-3808": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Journal of Political Economy",
+  "query": "0022-3808",
+  "checked_at": "2026-11-20"
+ },
+ "0304-405X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Journal of Financial Economics",
+  "query": "0304-405X",
+  "checked_at": "2026-11-20"
+ },
+ "0167-6687": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q3",
+   "Q2"
+  ],
+  "zone": "2区",
+  "name": "Insurance Mathematics and Economics",
+  "query": "0167-6687",
+  "checked_at": "2026-11-20"
+ },
+ "National Bureau of Economic Research": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "National Bureau of Economic Research",
+  "query": "National Bureau of Economic Research",
+  "checked_at": "2026-11-20"
+ },
+ "0747-4938": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q4",
+   "Q3"
+  ],
+  "zone": "4区",
+  "name": "Econometric Reviews",
+  "query": "0747-4938",
+  "checked_at": "2026-11-20"
+ },
+ "Journal of Statistical and Econometric Methods": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Journal of Statistical and Econometric Methods",
+  "query": "Journal of Statistical and Econometric Methods",
+  "checked_at": "2026-11-20"
+ },
+ "0301-4215": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Energy Policy",
+  "query": "0301-4215",
+  "checked_at": "2026-11-20"
+ },
+ "0735-0015": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q2",
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Journal of Business and Economic Statistics",
+  "query": "0735-0015",
+  "checked_at": "2026-11-20"
+ },
+ "0020-6598": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "International Economic Review",
+  "query": "0020-6598",
+  "checked_at": "2026-11-20"
+ },
+ "0140-9883": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Energy Economics",
+  "query": "0140-9883",
+  "checked_at": "2026-11-20"
+ },
+ "0304-3878": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Journal of Development Economics",
+  "query": "0304-3878",
+  "checked_at": "2026-11-20"
+ },
+ "0165-1765": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Economics Letters",
+  "query": "0165-1765",
+  "checked_at": "2026-11-20"
+ },
+ "Durham Research Online (Durham University)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Durham Research Online (Durham University)",
+  "query": "Durham Research Online (Durham University)",
+  "checked_at": "2026-11-20"
+ },
+ "ICPSR Data Holdings": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "ICPSR Data Holdings",
+  "query": "ICPSR Data Holdings",
+  "checked_at": "2026-11-20"
+ },
+ "0893-9454": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Review of Financial Studies",
+  "query": "0893-9454",
+  "checked_at": "2026-11-20"
+ },
+ "0377-2217": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "European Journal of Operational Research",
+  "query": "0377-2217",
+  "checked_at": "2026-11-20"
+ },
+ "1364-0321": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Renewable and Sustainable Energy Reviews",
+  "query": "1364-0321",
+  "checked_at": "2026-11-20"
+ },
+ "0731-9053": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Advances in econometrics",
+  "query": "0731-9053",
+  "checked_at": "2026-11-20"
+ },
+ "1536-867X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "The Stata Journal Promoting communications on statistics and Stata",
+  "query": "1536-867X",
+  "checked_at": "2026-11-20"
+ },
+ "0013-0427": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Economica",
+  "query": "0013-0427",
+  "checked_at": "2026-11-20"
+ },
+ "1368-4221": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q1"
+  ],
+  "zone": "3区",
+  "name": "Econometrics Journal",
+  "query": "1368-4221",
+  "checked_at": "2026-11-20"
+ },
+ "0022-1996": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Journal of International Economics",
+  "query": "0022-1996",
+  "checked_at": "2026-11-20"
+ },
+ "0161-8938": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Journal of Policy Modeling",
+  "query": "0161-8938",
+  "checked_at": "2026-11-20"
+ },
+ "0950-0804": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Journal of Economic Surveys",
+  "query": "0950-0804",
+  "checked_at": "2026-11-20"
+ },
+ "0932-5026": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "4区",
+  "name": "Statistical Papers",
+  "query": "0932-5026",
+  "checked_at": "2026-11-20"
+ },
+ "0960-1481": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Renewable Energy",
+  "query": "0960-1481",
+  "checked_at": "2026-11-20"
+ },
+ "0261-5606": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Journal of International Money and Finance",
+  "query": "0261-5606",
+  "checked_at": "2026-11-20"
+ },
+ "0261-5177": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Tourism Management",
+  "query": "0261-5177",
+  "checked_at": "2026-11-20"
+ },
+ "1364-985X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q2"
+  ],
+  "zone": "2区",
+  "name": "Australian Journal of Agricultural and Resource Economics",
+  "query": "1364-985X",
+  "checked_at": "2026-11-20"
+ },
+ "0195-6574": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q3",
+   "Q3"
+  ],
+  "zone": "3区",
+  "name": "The Energy Journal",
+  "query": "0195-6574",
+  "checked_at": "2026-11-20"
+ },
+ "0304-3932": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Journal of Monetary Economics",
+  "query": "0304-3932",
+  "checked_at": "2026-11-20"
+ },
+ "0377-7332": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Empirical Economics",
+  "query": "0377-7332",
+  "checked_at": "2026-11-20"
+ },
+ "CERN Document Server (European Organization for Nuclear Research)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "CERN Document Server (European Organization for Nuclear Research)",
+  "query": "CERN Document Server (European Organization for Nuclear Research)",
+  "checked_at": "2026-11-20"
+ },
+ "Oxford University Press eBooks": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Oxford University Press eBooks",
+  "query": "Oxford University Press eBooks",
+  "checked_at": "2026-11-20"
+ },
+ "0264-9993": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Economic Modelling",
+  "query": "0264-9993",
+  "checked_at": "2026-11-20"
+ },
+ "0921-8009": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Ecological Economics",
+  "query": "0921-8009",
+  "checked_at": "2026-11-20"
+ },
+ "0034-6527": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "The Review of Economic Studies",
+  "query": "0034-6527",
+  "checked_at": "2026-11-20"
+ },
+ "1365-1005": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "4区",
+  "name": "Macroeconomic Dynamics",
+  "query": "1365-1005",
+  "checked_at": "2026-11-20"
+ },
+ "Edward Elgar Publishing eBooks": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Edward Elgar Publishing eBooks",
+  "query": "Edward Elgar Publishing eBooks",
+  "checked_at": "2026-11-20"
+ },
+ "2314-7210": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Future Business Journal",
+  "query": "2314-7210",
+  "checked_at": "2026-11-20"
+ },
+ "0034-6535": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "The Review of Economics and Statistics",
+  "query": "0034-6535",
+  "checked_at": "2026-11-20"
+ },
+ "1469-7688": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q2",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Quantitative Finance",
+  "query": "1469-7688",
+  "checked_at": "2026-11-20"
+ },
+ "0360-5442": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Energy",
+  "query": "0360-5442",
+  "checked_at": "2026-11-20"
+ },
+ "0301-4207": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Resources Policy",
+  "query": "0301-4207",
+  "checked_at": "2026-11-20"
+ },
+ "1044-0283": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Global Finance Journal",
+  "query": "1044-0283",
+  "checked_at": "2026-11-20"
+ },
+ "1573-4412": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Handbook of econometrics",
+  "query": "1573-4412",
+  "checked_at": "2026-11-20"
+ },
+ "0022-1082": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "The Journal of Finance",
+  "query": "0022-1082",
+  "checked_at": "2026-11-20"
+ },
+ "0002-9092": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "American Journal of Agricultural Economics",
+  "query": "0002-9092",
+  "checked_at": "2026-11-20"
+ },
+ "1043-951X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "China Economic Review",
+  "query": "1043-951X",
+  "checked_at": "2026-11-20"
+ },
+ "0127-2713": {
+  "found": true,
+  "hits": 1,
+  "jcr": [],
+  "zone": null,
+  "name": "Jurnal Pengurusan",
+  "query": "0127-2713",
+  "checked_at": "2026-11-20"
+ },
+ "Palgrave Macmillan UK eBooks": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Palgrave Macmillan UK eBooks",
+  "query": "Palgrave Macmillan UK eBooks",
+  "checked_at": "2026-11-20"
+ },
+ "0167-6296": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q2",
+   "Q1"
+  ],
+  "zone": "2区",
+  "name": "Journal of Health Economics",
+  "query": "0167-6296",
+  "checked_at": "2026-11-20"
+ },
+ "0928-7655": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q3"
+  ],
+  "zone": "3区",
+  "name": "Resource and Energy Economics",
+  "query": "0928-7655",
+  "checked_at": "2026-11-20"
+ },
+ "1027-5606": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Hydrology and earth system sciences",
+  "query": "1027-5606",
+  "checked_at": "2026-11-20"
+ },
+ "0043-3640": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Economic Inquiry",
+  "query": "0043-3640",
+  "checked_at": "2026-11-20"
+ },
+ "0165-0572": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Resources and Energy",
+  "query": "0165-0572",
+  "checked_at": "2026-11-20"
+ },
+ "Munich Personal RePEc Archive (Ludwig Maximilian University of Munich)": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Munich Personal RePEc Archive (Ludwig Maximilian University of Munich)",
+  "query": "Munich Personal RePEc Archive (Ludwig Maximilian University of Munich)",
+  "checked_at": "2026-11-20"
+ },
+ "0022-1090": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Journal of Financial and Quantitative Analysis",
+  "query": "0022-1090",
+  "checked_at": "2026-11-20"
+ },
+ "1354-8166": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Tourism Economics",
+  "query": "1354-8166",
+  "checked_at": "2026-11-20"
+ },
+ "0022-2879": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Journal of money credit and banking",
+  "query": "0022-2879",
+  "checked_at": "2026-11-20"
+ },
+ "0047-2875": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Journal of Travel Research",
+  "query": "0047-2875",
+  "checked_at": "2026-11-20"
+ },
+ "1058-3300": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q3"
+  ],
+  "zone": "4区",
+  "name": "Review of Financial Economics",
+  "query": "1058-3300",
+  "checked_at": "2026-11-20"
+ },
+ "0002-8282": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "American Economic Review",
+  "query": "0002-8282",
+  "checked_at": "2026-11-20"
+ },
+ "0270-7314": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "2区",
+  "name": "Journal of Futures Markets",
+  "query": "0270-7314",
+  "checked_at": "2026-11-20"
+ },
+ "1387-3547": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2",
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Biological Invasions",
+  "query": "1387-3547",
+  "checked_at": "2026-11-20"
+ },
+ "0930-0325": {
+  "found": false,
+  "hits": 0,
+  "jcr": [],
+  "zone": null,
+  "name": "Lecture notes in statistics",
+  "query": "0930-0325",
+  "checked_at": "2026-11-20"
+ },
+ "1043-8599": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "3区",
+  "name": "Economics of Innovation and New Technology",
+  "query": "1043-8599",
+  "checked_at": "2026-11-20"
+ },
+ "0966-6923": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q1",
+   "Q1",
+   "Q1"
+  ],
+  "zone": "1区",
+  "name": "Journal of Transport Geography",
+  "query": "0966-6923",
+  "checked_at": "2026-11-20"
+ },
+ "0015-198X": {
+  "found": true,
+  "hits": 1,
+  "jcr": [
+   "Q2"
+  ],
+  "zone": "2区",
+  "name": "Financial Analysts Journal",
+  "query": "0015-198X",
+  "checked_at": "2026-11-20"
+ }
+}
