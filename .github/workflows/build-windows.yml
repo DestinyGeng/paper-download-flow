@@ -1,0 +1,34 @@
+name: build-windows
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PyInstaller
+        run: pip install pyinstaller
+      - name: Build
+        run: >
+          pyinstaller --noconfirm --onedir --windowed
+          --name PaperDownloadFlow
+          --add-data "scripts;scripts"
+          --add-data "data;data"
+          --add-data "docs;docs"
+          --paths scripts
+          run.py
+      - name: Zip
+        run: Compress-Archive -Path dist\PaperDownloadFlow -DestinationPath PaperDownloadFlow-Windows.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PaperDownloadFlow-Windows
+          path: PaperDownloadFlow-Windows.zip
+
