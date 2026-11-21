@@ -16,7 +16,7 @@ ORDER = ['奠基·A+', '奠基·A', '奠基·A-', '奠基·B+', '奠基·B', '�
 
 TEMPLATE = """<!DOCTYPE html>
 <html lang="zh-CN"><head><meta charset="utf-8">
-<meta http-equiv="refresh" content="1">
+<meta http-equiv="refresh" content="10">
 <title>文献进度看板</title>
 <style>
 body{font-family:-apple-system,"PingFang SC",sans-serif;margin:24px;background:#f7f8fa;color:#222}
