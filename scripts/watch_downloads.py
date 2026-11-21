@@ -49,10 +49,16 @@ def match_meta(name, meta):
         for x in meta:
             if pii.group(1) in (x.get('landing') or ''):
                 return x
-    base = os.path.splitext(name)[0].lower()
+    def norm(v):
+        return re.sub(r'[^0-9a-z\u4e00-\u9fa5]', '', (v or '').lower())
+
+    base = norm(os.path.splitext(name)[0])
     for x in meta:
-        t = (x.get('title') or '').lower()
-        if t and (t[:40] in base or base[:40] in t):
+        t = norm(x.get('title'))
+        if len(t) < 8 or len(base) < 8:
+            continue
+        # 严格：前 20 个字符完全一致
+        if t[:20] == base[:20]:
             return x
     return None
 
@@ -107,22 +113,30 @@ def handle(path, meta):
 def main():
     once = '--once' in sys.argv
     meta = json.load(open(META, encoding='utf-8'))
+    meta_mtime = os.path.getmtime(META)
     done = load_processed()
     log('watch start, meta=%d' % len(meta))
     while True:
         try:
-            for f in [x for x in os.listdir(DL) if x.lower().endswith('.pdf') and x not in done]:
+            # metadata 被其他进程改过就重载，避免用旧副本覆盖
+            m = os.path.getmtime(META)
+            if m != meta_mtime:
+                meta = json.load(open(META, encoding='utf-8'))
+                meta_mtime = m
+            for f in [x for x in os.listdir(DL) if x.lower().endswith('.pdf')]:
                 p = os.path.join(DL, f)
                 try:
                     s1 = os.path.getsize(p)
                     time.sleep(1.5)
                     s2 = os.path.getsize(p)
+                    m = int(os.path.getmtime(p))
                 except OSError:
                     continue
-                if s1 != s2 or s2 < 20000:
+                key = '%s:%d' % (f, m)
+                if key in done or s1 != s2 or s2 < 20000:
                     continue
                 handle(p, meta)
-                done.add(f)
+                done.add(key)
                 save_processed(done)
         except Exception as exc:
             log('ERR ' + str(exc)[:80])

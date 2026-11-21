@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""看板实时服务：每次请求重新生成 HTML，保证数据最新。"""
+"""看板实时服务：metadata 变化时才重新生成，否则直接返回缓存。"""
 import os
 import sys
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -8,18 +8,29 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import board
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8765
+_last = {'mtime': 0, 'html': b''}
+
+
+def html_now():
+    try:
+        m = os.path.getmtime(os.path.join(board.OUT, 'metadata.json'))
+    except OSError:
+        m = 0
+    if m != _last['mtime'] or not _last['html']:
+        try:
+            board.build()
+            _last['html'] = open(board.TARGET, 'rb').read()
+            _last['mtime'] = m
+        except Exception:
+            pass
+    return _last['html']
 
 
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
-        try:
-            board.build()
-        except Exception:
-            pass
-        try:
-            data = open(board.TARGET, 'rb').read()
-        except Exception as exc:
-            self.send_error(500, str(exc))
+        data = html_now()
+        if not data:
+            self.send_error(500, 'board not ready')
             return
         self.send_response(200)
         self.send_header('Content-Type', 'text/html; charset=utf-8')

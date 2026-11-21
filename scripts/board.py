@@ -11,11 +11,12 @@ _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import D as OUT
 META = os.path.join(OUT, 'metadata.json')
 TARGET = os.path.join(OUT, '进度看板.html')
-ORDER = ['A+', 'A', 'A-', 'B+', 'B', 'C', '未定']
+ORDER = ['奠基·A+', '奠基·A', '奠基·A-', '奠基·B+', '奠基·B', '奠基·C',
+         'A+', 'A', 'A-', 'B+', 'B', 'C', '未定']
 
 TEMPLATE = """<!DOCTYPE html>
 <html lang="zh-CN"><head><meta charset="utf-8">
-<meta http-equiv="refresh" content="10">
+<meta http-equiv="refresh" content="1">
 <title>文献进度看板</title>
 <style>
 body{font-family:-apple-system,"PingFang SC",sans-serif;margin:24px;background:#f7f8fa;color:#222}
@@ -58,7 +59,10 @@ __ROWS_TODO__
 
 
 def level_of(x):
-    return x.get('final_level') or x.get('level') or '未定'
+    base = x.get('final_level') or x.get('level') or '未定'
+    if x.get('foundational'):
+        return '奠基·' + base
+    return base
 
 
 def link_of(x):
