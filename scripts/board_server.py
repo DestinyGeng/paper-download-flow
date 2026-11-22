@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
-"""看板实时服务：metadata 变化时才重新生成，否则直接返回缓存。"""
+"""看板实时服务：/open?doi=xxx 记录「正在下载哪篇」并跳转，/ 返回看板。"""
+import json
 import os
 import sys
+import time
+import urllib.parse
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import board
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8765
+PENDING = '/tmp/board_pending.json'
 _last = {'mtime': 0, 'html': b''}
 
 
@@ -26,8 +30,32 @@ def html_now():
     return _last['html']
 
 
+def find_link(doi):
+    try:
+        meta = json.load(open(os.path.join(board.OUT, 'metadata.json'), encoding='utf-8'))
+    except Exception:
+        return None
+    for x in meta:
+        if (x.get('doi') or '').lower() == doi.lower():
+            return x.get('landing') or ('https://doi.org/' + doi), x.get('title')
+    return None, None
+
+
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
+        if self.path.startswith('/open'):
+            q = urllib.parse.urlparse(self.path).query
+            params = urllib.parse.parse_qs(q)
+            doi = (params.get('doi') or [''])[0]
+            link, title = find_link(doi) if doi else (None, None)
+            if doi:
+                json.dump({'doi': doi, 'title': title, 'ts': time.time()},
+                          open(PENDING, 'w', encoding='utf-8'), ensure_ascii=False)
+            target = link or ('https://doi.org/' + doi if doi else '/')
+            self.send_response(302)
+            self.send_header('Location', target)
+            self.end_headers()
+            return
         data = html_now()
         if not data:
             self.send_error(500, 'board not ready')

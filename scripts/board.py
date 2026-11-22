@@ -2,6 +2,7 @@
 """生成进度看板 HTML：列出全部标题，已下载打勾，未下载给「打开」入口。"""
 import html
 import re
+import urllib.parse
 import json
 import os
 import time
@@ -92,7 +93,11 @@ def row(x, ok):
     if ok:
         action = '<span class="file">%s</span>' % html.escape((x.get('file') or '')[:44])
     elif link:
-        action = '<a class="open" href="%s" target="_blank">打开</a>' % html.escape(link)
+        doi = (x.get('doi') or '').strip()
+        if doi:
+            action = '<a class="open" href="/open?doi=%s" target="_blank">打开</a>' % urllib.parse.quote(doi, safe='')
+        else:
+            action = '<a class="open" href="%s" target="_blank">打开</a>' % html.escape(link)
     else:
         action = '<span>无链接</span>'
     return ('<tr class="%s"><td class="mark">%s</td><td class="lv">%s</td><td class="lang">%s</td><td class="hit">%s</td><td>%s</td>'
