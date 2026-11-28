@@ -50,10 +50,10 @@ h2{font-size:15px;margin:26px 0 8px}
 <tr><th></th><th>评级</th><th>语种</th><th>命中</th><th>标题</th><th>期刊</th><th>年</th><th>文件</th></tr>
 __ROWS_DONE__
 </table>
-<h2>待下载 · B 及以上（__TODO__）—— 点「打开」后手动下载</h2>
+<h2>待下载（__TODO__）—— 点「打开」后手动下载</h2>
 <p class="sum">另有 __EXCLUDED__ 条 C 级/无期刊信息的记录已隐藏</p>
 <table>
-<tr><th></th><th>评级</th><th>标题</th><th>期刊</th><th>年</th><th>操作</th></tr>
+<tr><th></th><th>评级</th><th>语种</th><th>命中</th><th>标题</th><th>期刊</th><th>年</th><th>操作</th></tr>
 __ROWS_TODO__
 </table>
 </body></html>"""
@@ -76,13 +76,9 @@ def row(x, ok):
     lang = '中' if (x.get('lang') == 'zh' or 'cnki' in (link_of(x) or '')) else '英'
     link = link_of(x)
     _t = x.get('title') or ''
-    _hit = []
-    if re.search(r'pair[s]?\s*trad|配对', _t, re.I): _hit.append('配对')
-    if re.search(r'copula', _t, re.I): _hit.append('copula')
-    if re.search(r'跨市场|cross.?market', _t, re.I): _hit.append('跨市场')
-    if re.search(r'engle|granger', _t, re.I): _hit.append('EG')
-    hit_n = len(_hit)
-    tag_html = '<span class="tag">%d·%s</span>' % (hit_n, '+'.join(_hit)) if _hit else ''
+    q = (x.get('query') or '').strip()
+    tag_html = ('<span class="tag" title="%s">%s</span>'
+                % (html.escape(q), html.escape(q if len(q) <= 16 else q[:16] + '…'))) if q else ''
     if x.get('foundational') and x.get('cites'):
         tag_html = '<span class="tag f">奠:%s引</span>' % x['cites'] + tag_html
     if (x.get('download') or '') == 'needs_manual':
