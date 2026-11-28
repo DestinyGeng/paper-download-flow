@@ -3,6 +3,7 @@
 import json
 import os
 import re
+import subprocess
 import sys
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
@@ -87,6 +88,16 @@ def clear_cnki_cache():
     except Exception:
         pass
     return False
+
+
+def open_path(path):
+    """用系统默认程序打开文件/目录。"""
+    if sys.platform == 'darwin':
+        subprocess.Popen(['open', path])
+    elif sys.platform.startswith('win'):
+        os.startfile(path)  # noqa: PDE
+    else:
+        subprocess.Popen(['xdg-open', path])
 
 
 def ask_keywords():
@@ -252,6 +263,18 @@ def ask_keywords():
     def on_cancel():
         root.destroy()
 
+    def open_board():
+        """直接打开上次生成的看板；没有就提示先跑一次。"""
+        out = out_var.get().strip() or os.path.expanduser('~/论文')
+        board = os.path.join(out, '进度看板.html')
+        if not os.path.exists(board):
+            messagebox.showinfo('还没有看板', '「%s」下还没有 进度看板.html，先跑一次检索。' % out)
+            return
+        try:
+            open_path(board)
+        except Exception as exc:
+            messagebox.showerror('打不开', str(exc))
+
     def start_new_paper():
         gone = clear_cnki_cache()
         mode['new'] = True
@@ -262,6 +285,7 @@ def ask_keywords():
     btns = tk.Frame(root)
     btns.pack(pady=12)
     ttk.Button(btns, text='开启新论文搜索（清空缓存）', command=start_new_paper).pack(side='left', padx=6)
+    ttk.Button(btns, text='打开看板', command=open_board).pack(side='left', padx=6)
     ttk.Button(btns, text='开始检索', command=on_ok).pack(side='left', padx=6)
     ttk.Button(btns, text='取消', command=on_cancel).pack(side='left', padx=6)
 
