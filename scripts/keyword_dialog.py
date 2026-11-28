@@ -17,7 +17,7 @@ DEFAULTS = {
     'years': 0,
     'pages': 5,
     'target': 300,
-    'anchor': '',
+    'anchor': '股市,股票,金融,市场,波动,大宗商品,stock,equity,market,volatility,commodity,finance',
 }
 
 PAGE_OPTIONS = [('标准（每词 5 页 · 250 条）', 5),
@@ -161,9 +161,9 @@ def ask_keywords():
     ttk.Button(out_row, text='浏览…', command=browse).pack(side='left', padx=(6, 0))
 
     # 锚词
-    tk.Label(body, text='领域锚词（按题目自定，逗号分隔；标题里一个都不出现就丢弃）',
+    tk.Label(body, text='领域锚词（中英文都要写，逗号分隔；标题里一个都不出现就丢弃）',
              anchor='w').pack(fill='x')
-    anchor_var = tk.StringVar(value=last.get('anchor') or '')
+    anchor_var = tk.StringVar(value=last.get('anchor') or DEFAULTS['anchor'])
     tk.Entry(body, textvariable=anchor_var, font=('PingFang SC', 11)).pack(fill='x', pady=(2, 8))
 
     # 规模
