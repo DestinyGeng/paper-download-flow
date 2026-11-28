@@ -14,6 +14,61 @@ PROXY = 'http://127.0.0.1:3457'
 LOG = '/tmp/cnki_search.log'
 OUT = '/tmp/cnki_all.json'
 
+
+def emit(stage, done, total, msg=''):
+    print('##PROGRESS## ' + json.dumps(
+        {'stage': stage, 'done': done, 'total': total, 'msg': msg}, ensure_ascii=False), flush=True)
+
+
+def out_dir():
+    for i, a in enumerate(sys.argv):
+        if a == '--out' and i + 1 < len(sys.argv):
+            return os.path.abspath(sys.argv[i + 1])
+    return os.path.abspath(os.environ.get('PAPER_OUT') or
+                           os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '论文'))
+
+
+def merge_into_outdir(results, outdir):
+    """把知网结果并进 metadata.json，并单独出一份中文清单。"""
+    os.makedirs(outdir, exist_ok=True)
+    meta_path = os.path.join(outdir, 'metadata.json')
+    state = json.load(open(meta_path, encoding='utf-8')) if os.path.exists(meta_path) else []
+    have = {(x.get('title') or '').strip() for x in state}
+    added = 0
+    for r in results:
+        t = (r.get('title') or '').strip()
+        if not t or t in have:
+            continue
+        have.add(t)
+        state.append({
+            'title': t,
+            'year': (r.get('date') or '').strip()[:4] or None,
+            'venue': r.get('src') or '',
+            'authors': [],
+            'doi': None,
+            'lang': 'zh',
+            'landing': (r.get('href') or '') if (r.get('href') or '').startswith('http')
+                       else 'https://kns.cnki.net' + (r.get('href') or ''),
+            'query': r.get('query'),
+            'download': 'needs_manual',
+            'cites': 0,
+        })
+        added += 1
+    json.dump(state, open(meta_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+
+    zh = [x for x in state if x.get('lang') == 'zh']
+    path = os.path.join(outdir, '中文检索结果.md')
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write('# 中文检索结果（知网，需登录下载）\n\n共 %d 条。点链接在浏览器里过 VPN 下载。\n\n' % len(zh))
+        f.write('| # | 年份 | 标题 | 来源 | 检索词 | 链接 |\n|---|---|---|---|---|---|\n')
+        for i, x in enumerate(zh, 1):
+            f.write('| %d | %s | %s | %s | %s | %s |\n' % (
+                i, x.get('year') or '', (x.get('title') or '').replace('|', '/')[:80],
+                (x.get('venue') or '').replace('|', '/')[:24], x.get('query') or '',
+                x.get('landing') or ''))
+    print('中文结果 %d 条（新增 %d）→ %s' % (len(zh), added, path), flush=True)
+    return added
+
 QUERIES = ['配对交易', '统计套利', '跨市场套利', '协整 套利', '量化交易 套利', '高频交易 套利', '股指期货 套利', 'ETF 套利']
 
 
@@ -56,10 +111,12 @@ def main():
         f = sys.argv[sys.argv.index('--queries-file')+1]
         if os.path.exists(f):
             qs = [x.strip() for x in open(f, encoding='utf-8') if x.strip()]
+    outdir = out_dir()
     tid = json.loads(http('/targets'))[0]['targetId']
-    results = json.load(open(OUT, encoding='utf-8')) if __import__('os').path.exists(OUT) else []
+    results = json.load(open(OUT, encoding='utf-8')) if os.path.exists(OUT) else []
     seen = {r['href'] for r in results}
-    for q in qs:
+    emit('cnki', 0, len(qs), '共 %d 个中文检索词' % len(qs))
+    for qi, q in enumerate(qs, 1):
         url = ('https://kns.cnki.net/kns8s/defaultresult/index?kw=%s&korder=SU'
                % urllib.parse.quote(q))
         try:
@@ -91,7 +148,9 @@ def main():
             click('[data-nx="1"]', tid)
             time.sleep(3)
         json.dump(results, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        emit('cnki', qi, len(qs), '%s → 累计 %d 条' % (q, len(results)))
     log('总计 %d 条' % len(results))
+    merge_into_outdir(results, outdir)
 
 
 if __name__ == '__main__':
