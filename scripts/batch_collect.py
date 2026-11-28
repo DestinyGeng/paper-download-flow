@@ -49,7 +49,12 @@ def _from_year():
     return datetime.date.today().year - n + 1
 
 
+OPENALEX_KEY = os.environ.get('OPENALEX_API_KEY') or ''
+
+
 def http_json(url, tries=4):
+    if OPENALEX_KEY:
+        url += ('&' if '?' in url else '?') + 'api_key=' + urllib.parse.quote(OPENALEX_KEY)
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers=UA)
@@ -57,7 +62,12 @@ def http_json(url, tries=4):
         except Exception as exc:
             wait = 3 * (i + 1)
             msg = str(exc)
-            if '429' in msg or 'timed out' in msg or isinstance(exc, json.decoder.JSONDecodeError):
+            if '429' in msg:
+                if i == 0:
+                    print('! OpenAlex 配额已用尽（共享 IP 免费额度）。'
+                          '设置环境变量 OPENALEX_API_KEY 可继续，或等 UTC 零点重置。', flush=True)
+                return None
+            if 'timed out' in msg or isinstance(exc, json.decoder.JSONDecodeError):
                 time.sleep(wait)
                 continue
             raise
