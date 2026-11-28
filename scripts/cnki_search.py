@@ -42,7 +42,7 @@ def merge_into_outdir(results, outdir):
         have.add(t)
         state.append({
             'title': t,
-            'year': (r.get('date') or '').strip()[:4] or None,
+            'year': int((r.get('date') or '').strip()[:4]) if (r.get('date') or '').strip()[:4].isdigit() else None,
             'venue': r.get('src') or '',
             'authors': [],
             'doi': None,

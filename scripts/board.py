@@ -105,15 +105,23 @@ def row(x, ok):
             % ('done' if ok else 'todo', '✅' if ok else '⬜', html.escape(lv), lang, tag_html, title, venue, year, action))
 
 
+def _sort_key(x):
+    """年份可能是字符串（知网条目），统一转成 int 再排序。"""
+    lv = ORDER.index(x['_lv']) if x['_lv'] in ORDER else 9
+    try:
+        y = int(x.get('year') or 0)
+    except (TypeError, ValueError):
+        y = 0
+    return (lv, -y)
+
+
 def build():
     meta = json.load(open(META, encoding='utf-8'))
     for x in meta:
         x['_lv'] = level_of(x)
-    done = sorted([x for x in meta if x.get('download') == 'ok'],
-                  key=lambda x: (ORDER.index(x['_lv']) if x['_lv'] in ORDER else 9, -(x.get('year') or 0)))
+    done = sorted([x for x in meta if x.get('download') == 'ok'], key=_sort_key)
     all_todo = [x for x in meta if x.get('download') not in ('ok', 'dropped')]
-    todo = sorted(all_todo,
-                  key=lambda x: (ORDER.index(x['_lv']) if x['_lv'] in ORDER else 9, -(x.get('year') or 0)))
+    todo = sorted(all_todo, key=_sort_key)
     excluded = sum(1 for x in meta if x.get('download') == 'dropped')
     ok_n = len(done)
     total = ok_n + len(todo)

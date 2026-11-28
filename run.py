@@ -225,6 +225,13 @@ def worker(win, cfg):
             code = run_step(cmd, label, env, ui=win)
             if code not in (0, None):
                 win.add_line('（%s 退出码 %s，继续）' % (label, code))
+        board = os.path.join(cfg['out'], '进度看板.html')
+        if os.path.exists(board):
+            win.add_line('看板：%s' % board)
+            try:
+                subprocess.Popen(['open', board])
+            except Exception:
+                pass
         win.finish(True)
     except SystemExit:
         win.finish(False)
