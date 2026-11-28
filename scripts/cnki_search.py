@@ -20,6 +20,20 @@ def emit(stage, done, total, msg=''):
         {'stage': stage, 'done': done, 'total': total, 'msg': msg}, ensure_ascii=False), flush=True)
 
 
+def anchors_from_argv():
+    for i, a in enumerate(sys.argv):
+        if a == '--anchor' and i + 1 < len(sys.argv):
+            return [w.strip().lower() for w in sys.argv[i + 1].split(',') if w.strip()]
+    return []
+
+
+def keep_by_anchor(title, anchors):
+    if not anchors:
+        return True
+    t = (title or '').lower()
+    return any(a in t for a in anchors)
+
+
 def out_dir():
     for i, a in enumerate(sys.argv):
         if a == '--out' and i + 1 < len(sys.argv):
@@ -116,6 +130,9 @@ def main():
     results = json.load(open(OUT, encoding='utf-8')) if os.path.exists(OUT) else []
     seen = {r['href'] for r in results}
     emit('cnki', 0, len(qs), '共 %d 个中文检索词' % len(qs))
+    anchors = anchors_from_argv()
+    if anchors:
+        log('锚词：' + ', '.join(anchors))
     for qi, q in enumerate(qs, 1):
         url = ('https://kns.cnki.net/kns8s/defaultresult/index?kw=%s&korder=SU'
                % urllib.parse.quote(q))
@@ -138,16 +155,21 @@ def main():
         for page in range(3):
             rows = ev(EXTRACT, tid) or []
             for r in rows:
-                if r['href'] not in seen:
-                    r['query'] = q
-                    results.append(r)
-                    seen.add(r['href'])
+                if r['href'] in seen:
+                    continue
+                if not keep_by_anchor(r.get('title'), anchors):
+                    continue
+                r['query'] = q
+                results.append(r)
+                seen.add(r['href'])
             nxt = ev("(function(){var a=Array.from(document.querySelectorAll('a')).filter(function(x){return /下一页/.test(x.innerText||'')});if(!a.length)return 'no';a[0].setAttribute('data-nx','1');return 'ok'})()", tid)
             if nxt != 'ok':
                 break
             click('[data-nx="1"]', tid)
             time.sleep(3)
         json.dump(results, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        log('%s → 累计 %d 条（单条查询锚词：%s）' % (
+            q, len(results), '启用' if anchors else '未启用'))
         emit('cnki', qi, len(qs), '%s → 累计 %d 条' % (q, len(results)))
     log('总计 %d 条' % len(results))
     merge_into_outdir(results, outdir)

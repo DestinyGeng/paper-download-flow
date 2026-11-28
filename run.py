@@ -105,7 +105,8 @@ def build_commands(cfg):
         f = os.path.join(tmp, 'zh.txt')
         open(f, 'w', encoding='utf-8').write('\n'.join(cfg['zh']))
         steps.append(([PY, os.path.join(scripts, 'cnki_search.py'),
-                       '--queries-file', f, '--out', cfg['out']], '中文检索（CNKI）'))
+                       '--queries-file', f, '--out', cfg['out'],
+                       '--anchor', ','.join(cfg.get('anchor') or [])], '中文检索（CNKI）'))
     steps.append(([PY, os.path.join(scripts, 'apply_levels.py')], '期刊定级'))
     steps.append(([PY, os.path.join(scripts, 'board.py')], '生成看板'))
     return steps, env
