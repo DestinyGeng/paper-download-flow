@@ -371,6 +371,19 @@ def main():
         state.append(p)
         if p.get('doi'):
             done_doi.add(p['doi'])
+    # 按 DOI + 标题去重（跨来源合并后可能同一篇出现两次）
+    def _k(x):
+        doi = (x.get('doi') or '').strip().lower()
+        return doi or norm_title(x.get('title'))
+
+    seen_k, uniq = set(), []
+    for x in state:
+        k = _k(x)
+        if k and k in seen_k:
+            continue
+        seen_k.add(k)
+        uniq.append(x)
+    state = uniq
     json.dump(state, open(meta_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
     if manual:

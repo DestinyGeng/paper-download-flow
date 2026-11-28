@@ -47,13 +47,18 @@ def merge_into_outdir(results, outdir):
     os.makedirs(outdir, exist_ok=True)
     meta_path = os.path.join(outdir, 'metadata.json')
     state = json.load(open(meta_path, encoding='utf-8')) if os.path.exists(meta_path) else []
-    have = {(x.get('title') or '').strip() for x in state}
+    def _key(x):
+        doi = (x.get('doi') or '').strip().lower()
+        return doi or re.sub(r'[^a-z0-9]+', ' ', (x.get('title') or '').lower()).strip()
+
+    have = {_key(x) for x in state}
     added = 0
     for r in results:
         t = (r.get('title') or '').strip()
-        if not t or t in have:
+        k = re.sub(r'[^a-z0-9]+', ' ', t.lower()).strip()
+        if not t or k in have:
             continue
-        have.add(t)
+        have.add(k)
         state.append({
             'title': t,
             'year': int((r.get('date') or '').strip()[:4]) if (r.get('date') or '').strip()[:4].isdigit() else None,

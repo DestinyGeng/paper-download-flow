@@ -84,7 +84,12 @@ def main():
     os.makedirs(out, exist_ok=True)
     meta_path = os.path.join(out, 'metadata.json')
     state = json.load(open(meta_path, encoding='utf-8')) if os.path.exists(meta_path) else []
-    have = {(x.get('title') or '').strip() for x in state}
+
+    def key_of(x):
+        doi = (x.get('doi') or '').strip().lower()
+        return doi or re.sub(r'[^a-z0-9]+', ' ', (x.get('title') or '').lower()).strip()
+
+    have = {key_of(x) for x in state}
 
     print('ScienceDirect 检索：%d 个词，%d 页' % (len(qs), pages), flush=True)
     tid = target()
@@ -102,9 +107,10 @@ def main():
                 if not keep_by_anchor(r['title'], anchors):
                     continue
                 t = r['title'].strip()
-                if t in have:
+                k = re.sub(r'[^a-z0-9]+', ' ', t.lower()).strip()
+                if k in have:
                     continue
-                have.add(t)
+                have.add(k)
                 state.append({
                     'title': t, 'year': parse_meta(r.get('meta')), 'venue': '',
                     'authors': [], 'doi': None, 'lang': 'en', 'landing': r.get('href'),

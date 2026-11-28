@@ -3,8 +3,10 @@
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
+import threading
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 
@@ -91,6 +93,17 @@ def clear_cnki_cache():
     return False
 
 
+def _py():
+    """打包态 sys.executable 是 App 自身，需要系统 Python 才能跑脚本。"""
+    if not getattr(sys, 'frozen', False):
+        return sys.executable
+    for cand in (shutil.which('python3'), '/opt/homebrew/bin/python3',
+                 '/usr/local/bin/python3', '/usr/bin/python3'):
+        if cand and os.path.realpath(cand) != os.path.realpath(sys.executable):
+            return cand
+    return sys.executable
+
+
 def open_path(path):
     """用系统默认程序打开文件/目录。"""
     if sys.platform == 'darwin':
@@ -169,7 +182,48 @@ def ask_keywords():
 
     sd_var = tk.BooleanVar(value=bool(last.get('sd')))
     tk.Checkbutton(body, text='同时检索 ScienceDirect（需浏览器已登录，较慢）',
-                   variable=sd_var, anchor='w').pack(fill='x', pady=(0, 6))
+                   variable=sd_var, anchor='w').pack(fill='x', pady=(0, 2))
+
+    login_row = tk.Frame(body)
+    login_row.pack(fill='x', pady=(0, 6))
+    login_label = tk.Label(login_row, text='登录状态：未检测', fg='#8a6d3b',
+                           anchor='w', justify='left', font=('PingFang SC', 10))
+    login_label.pack(side='left')
+    login_state = {}
+
+    def refresh_login(out):
+        names = {'cnki': '知网', 'sd': 'ScienceDirect', 'wos': 'WoS', 'ebsco': 'EBSCO'}
+        parts = []
+        for k in ('cnki', 'sd', 'wos', 'ebsco'):
+            v = out.get(k, {})
+            parts.append('%s %s' % (names[k], '✓' if v.get('ok') else '✗'))
+        bad = [names[k] for k in ('cnki', 'sd', 'wos', 'ebsco')
+               if not out.get(k, {}).get('ok')]
+        txt = '登录状态：' + '｜'.join(parts)
+        if bad:
+            txt += '（%s 未登录）' % '、'.join(bad)
+        login_label.config(text=txt, fg='#1a7f37' if not bad else '#c0392b')
+
+    def run_check():
+        login_label.config(text='登录状态：检测中…（约 30 秒）', fg='#8a6d3b')
+        script = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'check_login.py')
+
+        def work():
+            out = {}
+            try:
+                r = subprocess.run([_py(), script], capture_output=True, text=True, timeout=180)
+                for line in r.stdout.splitlines():
+                    if line.startswith('##RESULT## '):
+                        out = json.loads(line[len('##RESULT## '):])
+            except Exception as exc:
+                out = {'error': str(exc)}
+            login_state.clear()
+            login_state.update(out)
+            root.after(0, lambda: refresh_login(out))
+
+        threading.Thread(target=work, daemon=True).start()
+
+    ttk.Button(login_row, text='检测登录状态', command=run_check).pack(side='right')
 
     # 规模
     depth_row = tk.Frame(body)
@@ -244,6 +298,17 @@ def ask_keywords():
         if not zh and not en:
             messagebox.showwarning('没有关键词', '至少输入一个中文或英文关键词。')
             return
+        if login_state and not login_state.get('error'):
+            if not any(login_state.get(k, {}).get('ok') for k in ('cnki', 'sd', 'wos', 'ebsco')):
+                messagebox.showwarning(
+                    '都没有登录', '知网 / ScienceDirect / WoS / EBSCO 全部未登录，'
+                    '先在浏览器里登录至少一个再检索。')
+                return
+            if sd_var.get() and not login_state.get('sd', {}).get('ok'):
+                if not messagebox.askyesno(
+                        'ScienceDirect 未登录',
+                        'ScienceDirect 当前未登录，这一步会抓不到结果。仍然开始吗？'):
+                    return
         bad = single_words()
         if bad and len(bad) * 2 >= (len(zh) + len(en)):
             go = messagebox.askyesno(
