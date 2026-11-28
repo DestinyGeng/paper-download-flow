@@ -9,11 +9,13 @@
 
 | 平台 | 文件 | 说明 |
 |---|---|---|
-| **macOS** | `PaperDownloadFlow-macOS-1.1.zip` | 解压后双击 `PaperDownloadFlow.app`，**无需安装 Python** |
+| **macOS** | `PaperDownloadFlow-macOS.zip` | 解压后双击 `PaperDownloadFlow.app`，**无需安装 Python** |
 | **Windows** | `PaperDownloadFlow-Windows.zip` | 解压后运行 `PaperDownloadFlow.exe`，**无需安装 Python** |
-| **源码** | `paper-download-flow-1.1.zip` | 任意平台，需自己装 Python + poppler |
+| **源码** | `PaperDownloadFlow-source.zip` | 任意平台，需自己装 Python + poppler |
 
 下载地址：[Releases](https://github.com/DestinyGeng/paper-download-flow/releases)
+
+> 安装包文件名不带版本号，版本号只标在 Release 标签上（当前版本见 Releases 页面）。
 
 > 首次打开若被系统拦截：macOS 右键「打开」；Windows 点「更多信息 → 仍要运行」。
 
