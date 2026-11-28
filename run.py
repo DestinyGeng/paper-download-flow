@@ -104,9 +104,12 @@ def build_commands(cfg):
     if cfg['zh']:
         f = os.path.join(tmp, 'zh.txt')
         open(f, 'w', encoding='utf-8').write('\n'.join(cfg['zh']))
-        steps.append(([PY, os.path.join(scripts, 'cnki_search.py'),
-                       '--queries-file', f, '--out', cfg['out'],
-                       '--anchor', ','.join(cfg.get('anchor') or [])], '中文检索（CNKI）'))
+        cmd = [PY, os.path.join(scripts, 'cnki_search.py'),
+               '--queries-file', f, '--out', cfg['out'],
+               '--anchor', ','.join(cfg.get('anchor') or [])]
+        if cfg.get('new_paper'):
+            cmd.append('--fresh')
+        steps.append((cmd, '中文检索（CNKI）'))
     steps.append(([PY, os.path.join(scripts, 'apply_levels.py')], '期刊定级'))
     steps.append(([PY, os.path.join(scripts, 'board.py')], '生成看板'))
     return steps, env
@@ -243,13 +246,14 @@ def worker(win, cfg):
 
 def main():
     import tkinter as tk
-    from keyword_dialog import ask_keywords
+    from keyword_dialog import ask_keywords, ask_new_paper, clear_cnki_cache
 
     if len(sys.argv) > 1 and '--cli' in sys.argv:
         cfg = ask_keywords()
         if not cfg:
             print('已取消。')
             return
+        cfg['new_paper'] = True
         steps, env = build_commands(cfg)
         for cmd, label in steps:
             run_step(cmd, label, env)
@@ -261,9 +265,13 @@ def main():
         mb.showerror('缺少 Python', '打包版需要系统里有 Python 3（python3）。')
         return
 
+    new_paper = ask_new_paper()
     cfg = ask_keywords()
     if not cfg:
         return
+    cfg['new_paper'] = new_paper
+    if new_paper and clear_cnki_cache():
+        print('已清空知网缓存', flush=True)
     root = tk.Tk()
     win = RunWindow(root, cfg['out'])
     threading.Thread(target=worker, args=(win, cfg), daemon=True).start()

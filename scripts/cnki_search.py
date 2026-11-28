@@ -127,6 +127,9 @@ def main():
             qs = [x.strip() for x in open(f, encoding='utf-8') if x.strip()]
     outdir = out_dir()
     tid = json.loads(http('/targets'))[0]['targetId']
+    fresh = '--fresh' in sys.argv
+    if fresh and os.path.exists(OUT):
+        os.remove(OUT)
     results = json.load(open(OUT, encoding='utf-8')) if os.path.exists(OUT) else []
     seen = {r['href'] for r in results}
     emit('cnki', 0, len(qs), '共 %d 个中文检索词' % len(qs))

@@ -75,6 +75,51 @@ def save_last(cfg):
         pass  # 存不了就算了，不能因此让流程失败
 
 
+CNKI_CACHE = '/tmp/cnki_all.json'
+
+
+def clear_cnki_cache():
+    """新论文：清掉上次知网积累的检索结果，避免旧题目混进新清单。"""
+    try:
+        if os.path.exists(CNKI_CACHE):
+            os.remove(CNKI_CACHE)
+            return True
+    except Exception:
+        pass
+    return False
+
+
+def ask_new_paper():
+    """启动窗口：开新论文（清空知网缓存）还是接着上一轮。返回 True/False。"""
+    root = tk.Tk()
+    root.title('Paper Download Flow')
+    root.geometry('420x230')
+    root.resizable(False, False)
+    choice = {'new': False}
+
+    tk.Label(root, text='Paper Download Flow', font=('PingFang SC', 15, 'bold')).pack(pady=(18, 4))
+    tk.Label(root, text='这次是开新题目，还是接着上一轮继续抓？',
+             fg='#555').pack(pady=(0, 4))
+    tk.Label(root, text='知网检索结果会累积在 %s' % CNKI_CACHE,
+             fg='#999', font=('PingFang SC', 10)).pack(pady=(0, 12))
+
+    def pick(new):
+        choice['new'] = new
+        root.destroy()
+
+    tk.Button(root, text='开启新论文搜索（清空知网缓存）', width=34, height=2,
+              command=lambda: pick(True)).pack(pady=4)
+    tk.Button(root, text='继续上一轮（保留缓存）', width=34,
+              command=lambda: pick(False)).pack(pady=2)
+
+    root.attributes('-topmost', True)
+    root.update()
+    root.lift()
+    root.focus_force()
+    root.mainloop()
+    return choice['new']
+
+
 def ask_keywords():
     """返回 dict：zh/en/out/years/pages/target/anchor；取消返回 None。"""
     root = tk.Tk()
