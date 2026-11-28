@@ -47,18 +47,27 @@ def emit(stage, done, total, msg=''):
 EXTRACT = """Array.from(document.querySelectorAll('li.ResultItem')).map(function(li){
   var a=li.querySelector('h3 a, a.result-list-title-link');
   if(!a) return null;
-  var txt=(li.innerText||'').split('\\n');
-  return {title:(a.innerText||'').trim(), href:a.href||'',
-          meta:txt.filter(function(s){return s.trim()}).slice(1,4).join(' | ')};
+  var txt=(li.innerText||'').split('\\n').map(function(s){return s.trim()}).filter(Boolean);
+  return {title:(a.innerText||'').trim(), href:a.href||'', lines:txt.slice(0,6)};
 })"""
 
 
-def parse_meta(meta):
+def parse_meta(lines):
+    """从列表行里取年份和期刊名。"""
+    joined = ' | '.join(lines or [])
     year = None
-    m = re.search(r'\b(19|20)\d{2}\b', meta or '')
+    m = re.search(r'\b(19|20)\d{2}\b', joined)
     if m:
         year = int(m.group(0))
-    return year
+    venue = ''
+    for ln in (lines or [])[1:]:
+        if re.search(r'\b(19|20)\d{2}\b', ln):
+            venue = re.split(r'[,·]|\b(19|20)\d{2}\b', ln)[0].strip()
+            venue = re.sub(r'(January|February|March|April|May|June|July|August|'
+                           r'September|October|November|December)\s*$', '', venue).strip()
+            venue = re.sub(r'\s*\d+\s*$', '', venue).strip()
+            break
+    return year, venue
 
 
 def keep_by_anchor(title, anchors):
@@ -111,8 +120,9 @@ def main():
                 if k in have:
                     continue
                 have.add(k)
+                _y, _v = parse_meta(r.get('lines'))
                 state.append({
-                    'title': t, 'year': parse_meta(r.get('meta')), 'venue': '',
+                    'title': t, 'year': _y, 'venue': _v,
                     'authors': [], 'doi': None, 'lang': 'en', 'landing': r.get('href'),
                     'query': q, 'download': 'needs_manual', 'cites': 0,
                     'source': 'sciencedirect',

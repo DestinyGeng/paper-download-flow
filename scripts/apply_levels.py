@@ -21,7 +21,8 @@ def norm_issn(s):
 
 
 def lookup(ver, rec):
-    for key in (rec.get('issn'), 'name:' + (rec.get('venue') or '')):
+    venue = (rec.get('venue') or '').strip()
+    for key in (rec.get('issn'), 'name:' + venue, venue):
         if key and key in ver:
             return ver[key]
     code = norm_issn(rec.get('issn'))
