@@ -246,7 +246,7 @@ def worker(win, cfg):
 
 def main():
     import tkinter as tk
-    from keyword_dialog import ask_keywords, ask_new_paper, clear_cnki_cache
+    from keyword_dialog import ask_keywords
 
     if len(sys.argv) > 1 and '--cli' in sys.argv:
         cfg = ask_keywords()
@@ -265,13 +265,9 @@ def main():
         mb.showerror('缺少 Python', '打包版需要系统里有 Python 3（python3）。')
         return
 
-    new_paper = ask_new_paper()
     cfg = ask_keywords()
     if not cfg:
         return
-    cfg['new_paper'] = new_paper
-    if new_paper and clear_cnki_cache():
-        print('已清空知网缓存', flush=True)
     root = tk.Tk()
     win = RunWindow(root, cfg['out'])
     threading.Thread(target=worker, args=(win, cfg), daemon=True).start()

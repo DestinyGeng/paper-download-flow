@@ -89,37 +89,6 @@ def clear_cnki_cache():
     return False
 
 
-def ask_new_paper():
-    """启动窗口：开新论文（清空知网缓存）还是接着上一轮。返回 True/False。"""
-    root = tk.Tk()
-    root.title('Paper Download Flow')
-    root.geometry('420x230')
-    root.resizable(False, False)
-    choice = {'new': False}
-
-    tk.Label(root, text='Paper Download Flow', font=('PingFang SC', 15, 'bold')).pack(pady=(18, 4))
-    tk.Label(root, text='这次是开新题目，还是接着上一轮继续抓？',
-             fg='#555').pack(pady=(0, 4))
-    tk.Label(root, text='知网检索结果会累积在 %s' % CNKI_CACHE,
-             fg='#999', font=('PingFang SC', 10)).pack(pady=(0, 12))
-
-    def pick(new):
-        choice['new'] = new
-        root.destroy()
-
-    tk.Button(root, text='开启新论文搜索（清空知网缓存）', width=34, height=2,
-              command=lambda: pick(True)).pack(pady=4)
-    tk.Button(root, text='继续上一轮（保留缓存）', width=34,
-              command=lambda: pick(False)).pack(pady=2)
-
-    root.attributes('-topmost', True)
-    root.update()
-    root.lift()
-    root.focus_force()
-    root.mainloop()
-    return choice['new']
-
-
 def ask_keywords():
     """返回 dict：zh/en/out/years/pages/target/anchor；取消返回 None。"""
     root = tk.Tk()
@@ -211,6 +180,11 @@ def ask_keywords():
     ttk.Combobox(pick_row, textvariable=year_var, values=YEAR_OPTIONS,
                  state='readonly', width=11).pack(side='left', padx=(8, 0))
 
+    mode = {'new': False}
+    mode_label = tk.Label(root, text='当前模式：继续上一轮（保留知网缓存）',
+                          fg='#8a6d3b', justify='left', font=('PingFang SC', 10))
+    mode_label.pack(pady=(2, 0))
+
     status = tk.Label(root, text='', fg='#555', justify='left')
     status.pack(pady=(4, 0))
     tip = tk.Label(root, text='', fg='#c0392b', justify='left', font=('PingFang SC', 10))
@@ -268,7 +242,7 @@ def ask_keywords():
         cfg = {'zh': zh, 'en': en, 'out': out, 'years': YEAR_MAP.get(year_var.get(), 0),
                'pages': dict(PAGE_OPTIONS).get(page_var.get(), 5),
                'target': dict(TARGET_OPTIONS).get(target_var.get(), 300),
-               'anchor': anchors}
+               'anchor': anchors, 'new_paper': mode['new']}
         save_last({'zh': '\n'.join(zh), 'en': '\n'.join(en), 'out': out,
                    'years': cfg['years'], 'pages': cfg['pages'],
                    'target': cfg['target'], 'anchor': ','.join(anchors)})
@@ -278,10 +252,18 @@ def ask_keywords():
     def on_cancel():
         root.destroy()
 
+    def start_new_paper():
+        gone = clear_cnki_cache()
+        mode['new'] = True
+        mode_label.config(
+            text='当前模式：开启新论文（知网缓存%s）' % ('已清空' if gone else '本来就没有'),
+            fg='#1a7f37')
+
     btns = tk.Frame(root)
     btns.pack(pady=12)
-    ttk.Button(btns, text='开始检索', command=on_ok).pack(side='left', padx=10)
-    ttk.Button(btns, text='取消', command=on_cancel).pack(side='left', padx=10)
+    ttk.Button(btns, text='开启新论文搜索（清空缓存）', command=start_new_paper).pack(side='left', padx=6)
+    ttk.Button(btns, text='开始检索', command=on_ok).pack(side='left', padx=6)
+    ttk.Button(btns, text='取消', command=on_cancel).pack(side='left', padx=6)
 
     root.bind('<Return>', lambda e: on_ok())
     root.bind('<Escape>', lambda e: on_cancel())
