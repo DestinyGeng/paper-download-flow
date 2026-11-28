@@ -111,6 +111,13 @@ def build_commands(cfg):
         if cfg.get('new_paper'):
             cmd.append('--fresh')
         steps.append((cmd, '中文检索（CNKI）'))
+    if cfg.get('sd') and cfg['en']:
+        f = os.path.join(tmp, 'sd.txt')
+        open(f, 'w', encoding='utf-8').write('\n'.join(cfg['en']))
+        steps.append(([PY, os.path.join(scripts, 'sd_search.py'),
+                       '--queries-file', f, '--out', cfg['out'],
+                       '--pages', str(min(3, cfg.get('pages') or 1)),
+                       '--anchor', ','.join(cfg.get('anchor') or [])], 'ScienceDirect 检索'))
     steps.append(([PY, os.path.join(scripts, 'verify_journals.py')], '期刊核验（ablesci）'))
     steps.append(([PY, os.path.join(scripts, 'apply_levels.py')], '期刊定级'))
     steps.append(([PY, os.path.join(scripts, 'cleanup.py')], '清理未定级'))

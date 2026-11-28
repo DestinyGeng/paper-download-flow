@@ -18,6 +18,7 @@ DEFAULTS = {
     'pages': 5,
     'target': 300,
     'anchor': '股市,股票,金融,市场,波动,大宗商品,stock,equity,market,volatility,commodity,finance',
+    'sd': False,
 }
 
 PAGE_OPTIONS = [('标准（每词 5 页 · 250 条）', 5),
@@ -166,6 +167,10 @@ def ask_keywords():
     anchor_var = tk.StringVar(value=last.get('anchor') or DEFAULTS['anchor'])
     tk.Entry(body, textvariable=anchor_var, font=('PingFang SC', 11)).pack(fill='x', pady=(2, 8))
 
+    sd_var = tk.BooleanVar(value=bool(last.get('sd')))
+    tk.Checkbutton(body, text='同时检索 ScienceDirect（需浏览器已登录，较慢）',
+                   variable=sd_var, anchor='w').pack(fill='x', pady=(0, 6))
+
     # 规模
     depth_row = tk.Frame(body)
     depth_row.pack(fill='x')
@@ -253,10 +258,11 @@ def ask_keywords():
         cfg = {'zh': zh, 'en': en, 'out': out, 'years': YEAR_MAP.get(year_var.get(), 0),
                'pages': dict(PAGE_OPTIONS).get(page_var.get(), 5),
                'target': dict(TARGET_OPTIONS).get(target_var.get(), 300),
-               'anchor': anchors, 'new_paper': mode['new']}
+               'anchor': anchors, 'new_paper': mode['new'], 'sd': sd_var.get()}
         save_last({'zh': '\n'.join(zh), 'en': '\n'.join(en), 'out': out,
                    'years': cfg['years'], 'pages': cfg['pages'],
-                   'target': cfg['target'], 'anchor': ','.join(anchors)})
+                   'target': cfg['target'], 'anchor': ','.join(anchors),
+                   'sd': cfg['sd']})
         result['value'] = cfg
         root.destroy()
 
