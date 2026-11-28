@@ -46,7 +46,8 @@ if FROZEN and len(sys.argv) > 1 and sys.argv[1].endswith('.py'):
         sys.exit('找不到系统 Python 3，无法运行 %s' % _path)
     os.execv(PY, [PY, _path] + sys.argv[2:])
 
-STAGE_NAMES = {'filter': '相关性筛选', 'download': '下载中', 'cnki': '知网检索', 'done': '完成'}
+STAGE_NAMES = {'filter': '相关性筛选', 'download': '下载中', 'cnki': '知网检索',
+               'verify': '期刊核验', 'done': '完成'}
 
 
 def run_step(cmd, label, env, ui=None):
@@ -110,6 +111,7 @@ def build_commands(cfg):
         if cfg.get('new_paper'):
             cmd.append('--fresh')
         steps.append((cmd, '中文检索（CNKI）'))
+    steps.append(([PY, os.path.join(scripts, 'verify_journals.py')], '期刊核验（ablesci）'))
     steps.append(([PY, os.path.join(scripts, 'apply_levels.py')], '期刊定级'))
     steps.append(([PY, os.path.join(scripts, 'cleanup.py')], '清理未定级'))
     steps.append(([PY, os.path.join(scripts, 'board.py')], '生成看板'))

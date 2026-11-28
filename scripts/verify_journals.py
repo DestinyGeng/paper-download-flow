@@ -8,6 +8,7 @@ import argparse
 import json
 import os
 import re
+import sys
 import time
 import urllib.parse
 import urllib.request
@@ -15,7 +16,9 @@ import urllib.request
 PROXY = 'http://127.0.0.1:3457'
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, '..', 'data', 'journal-verification.json')
-META = '/Users/ligenghao/Downloads/中南/自用论文2/论文/metadata.json'
+sys.path.insert(0, HERE)
+from config import D as _OUT_DIR
+META = os.path.join(_OUT_DIR, 'metadata.json')
 
 
 def target():
@@ -68,6 +71,8 @@ def main():
     print('待核验', len(todo), flush=True)
 
     tid = target()
+    print('##PROGRESS## ' + json.dumps({'stage': 'verify', 'done': 0, 'total': len(todo),
+                                        'msg': '待核验期刊 %d 种' % len(todo)}, ensure_ascii=False), flush=True)
     for i, (key, name) in enumerate(todo, 1):
         q = key if re.match(r'^\d{4}-?\d{3}[\dX]$', key) else name
         url = 'https://www.ablesci.com/journal/index?keywords=' + urllib.parse.quote(q)
@@ -81,6 +86,8 @@ def main():
         db[key] = info
         print('  [%d/%d] %-40s found=%-5s jcr=%s zone=%s' % (
             i, len(todo), name[:40], info['found'], ','.join(info['jcr']) or '-', info['zone'] or '-'), flush=True)
+        print('##PROGRESS## ' + json.dumps({'stage': 'verify', 'done': i, 'total': len(todo),
+                                            'msg': name[:40]}, ensure_ascii=False), flush=True)
         if i % 10 == 0:
             json.dump(db, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     json.dump(db, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
