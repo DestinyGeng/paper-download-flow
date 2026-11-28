@@ -111,6 +111,7 @@ def build_commands(cfg):
             cmd.append('--fresh')
         steps.append((cmd, '中文检索（CNKI）'))
     steps.append(([PY, os.path.join(scripts, 'apply_levels.py')], '期刊定级'))
+    steps.append(([PY, os.path.join(scripts, 'cleanup.py')], '清理未定级'))
     steps.append(([PY, os.path.join(scripts, 'board.py')], '生成看板'))
     return steps, env
 
